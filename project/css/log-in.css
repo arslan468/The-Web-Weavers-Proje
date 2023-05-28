@@ -16,3 +16,9 @@
     }
     }
 }
+
+.girisbuton:hover
+{
+    opacity: 0.7;
+    transition: 0.5s;
+}
