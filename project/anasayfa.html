@@ -13,46 +13,198 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg  text-light">
-        <a class="navbar-brand" style="margin-left: 20%;" href="#">Navbar</a>
-        <div class="collapse navbar-collapse" style="margin-left: 30%;" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                        aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <button class=" ml-5 btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </li>
-            </ul>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top  ">
+        <div class="container ">
+            <a class="navbar-brand " href="#">Akıllı Tarım</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class=" nav-link" href="#">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="#">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Şehirler
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="#">İletişim</a>
+                    </li>
+                    <li class="nav-item bg-dark">
+                        <a class=" nav-link" href="#">Kullanıcı Giriş/Oluşturma</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-
+    <!-- ilk container -->
     <header>
-        <div class="text-lefft bg-secondary text-light w-100 baslik">
+        <div class="text-lefft bg-secondary text-light baslik">
             <div>
                 <h1 class="font-weight-bolder  display-3">Lorem ipsum dolor sit amet</h1>
-                <p class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eum
-                    repellaveritatis neque ea atqueabdeserunt debitis provident asperiores. Lorem ipsum dolor sit amet
-                    consectetur adipiselit.Vero, deleniti.</p>
+                <p class="font-weight-bold">Milletimiz çok büyük elemler, mağlûbiyetler, facialar görmüştür. Bütün
+                    olanlardan sonra yine bu topraklarda bulunuyorsa bunun temel sebebi şundandır: “Çünkü Türk çiftçisi
+                    bir eliyle kılıcını kullanırken, diğer elindeki sapanla topraktan ayrılmadı. Eğer milletimizin büyük
+                    ekseriyeti çiftçi olmasaydı biz bugün dünya yüzünde bulunmayacaktır.” .</p>
             </div>
         </div>
     </header>
+
+
+    <!-- card & image - Text -->
+    <div class="container-fluid align-items-center bg-warning ">
+        <div class="d-flex justify-content-center images">
+            <div class="y-eksen mx-1">
+                <img src="images/bugdayaBakanCiftci.png" alt="" class="radius y-eksen">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+            </div>
+            <div class="y-eksen mx-1 ">
+                <h4 style="margin-top: 50%;">Lorem ipsum dolor sit amet.</h4>
+                <img src="images/farmer.png" alt="" class="radius y-eksen">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark text-center ">
+        <div class="container p-5 ">
+            <header>
+                <h1 class="text-white">2023 Türkiye'de...</h1>
+            </header>
+            <!-- cards -->
+            <div class="container">
+                <div class="card-deck mb-3 text-left">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Akdeniz</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
+                                haşhaş ve de pamuk
+                                .</h6>
+                            <p>_________________________</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:87%; background:#edbb18;">
+                                    <div class="progress-value">87%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Akdeniz</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
+                                haşhaş ve de pamuk
+                                .</h6>
+                            <p>_________________________</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:87%; background:#edbb18;">
+                                    <div class="progress-value">87%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card-deck mb-3 text-left">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Akdeniz</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
+                                haşhaş ve de pamuk
+                                .</h6>
+                            <p>_________________________</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:87%; background:#edbb18;">
+                                    <div class="progress-value">87%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Akdeniz</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
+                                haşhaş ve de pamuk
+                                .</h6>
+                            <p>_________________________</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:87%; background:#edbb18;">
+                                    <div class="progress-value">87%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card-deck mb-3 text-left">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Akdeniz</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
+                                haşhaş ve de pamuk
+                                .</h6>
+                            <p>_________________________</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:87%; background:#edbb18;">
+                                    <div class="progress-value">87%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Akdeniz</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
+                                haşhaş ve de pamuk
+                                .</h6>
+                            <p>_________________________</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:87%; background:#edbb18;">
+                                    <div class="progress-value">87%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card-deck mb-3 text-left">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Akdeniz</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
+                                haşhaş ve de pamuk
+                                .</h6>
+                            <p>_________________________</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:87%; background:#edbb18;">
+                                    <div class="progress-value">87%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -66,16 +218,3 @@
 </body>
 
 </html>
-
-
-<li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-        Dropdown
-    </a>
-    <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Something else here</a>
-    </div>
-</li>
