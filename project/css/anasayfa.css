@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #213f1f;
+    color: rgb(255, 255, 255);
+}
+
+.baslik {
+    padding: 10%;
+}
+
+.images img {
+    width: 300px;
+    height: 400px;
+}
+
+.y-eksen {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.radius {
+    border-radius: 20px;
+}
+
+/* .progress {
+    width: 200px;
+} */
