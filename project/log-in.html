@@ -13,8 +13,6 @@
     <title>Akıllı Tarım</title>
 </head>
 <body>
-
-
       <div class="container mt-5 py-5 h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
           <div class="col-xl-10">
@@ -30,7 +28,7 @@
                       <h4 class="mt-1 mb-5 pb-1">The Web Weavers</h4>
                     </div>
     
-                    <form name = "login" action="newuser.html" method="POST">
+                    <form name = "login" action="log-in.html" method="POST">
                       <p>Lütfen giriş yapmak için bilgilerinizi giriniz</p>
     
                       <div class="form-outline mb-4">
@@ -46,16 +44,21 @@
                         <input type="submit" class="text-dark btn border-success btn-block fa-lg gradient-custom-2 mb-3 girisbuton" value="Giriş Yap">
                       </div>
                     </form>
-                    <form action="">
+                    <form action="https://giris.turkiye.gov.tr/Giris/gir">
+                      <div class="d-flex align-items-center justify-content-center pb-4 ">
+                          <input type="submit" class=" btn btn-outline-danger" value="E-devlet ile Giriş Yap">
+                      </div>
+                   </form>
+                    <form action="newuser.html">
                         <div class="d-flex align-items-center justify-content-center pb-4">
-                            <button type="button" class="btn btn-outline-dark">Yeni Hesap Oluştur</button>
-                          </div>
-        
-                          <div class="d-flex align-items-center justify-content-center pb-4">
-                            <button type="button" class="btn btn-outline-dark">Anasayfaya Dön</button>
-                          </div>
-        
+                            <input type="submit" class="btn btn-outline-dark" value="Yeni Hesap Oluştur">
+                        </div>
                     </form>
+                    <form action="anasayfa.html">      
+                      <div class="d-flex align-items-center justify-content-center pb-4">
+                        <input type="submit" class="btn btn-outline-dark" value="Anasayfaya Dön">
+                      </div>      
+                  </form>
     
                   </div>
                 </div>

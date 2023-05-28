@@ -22,3 +22,8 @@
     opacity: 0.7;
     transition: 0.5s;
 }
+
+.edevlet
+{
+    background-image:url("/project/images/edevlet.png");
+}
