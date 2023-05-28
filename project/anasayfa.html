@@ -1,413 +1,225 @@
-<!doctype html>
-<html lang="tr">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script type="text/javascript" src="javascript/app.js"></script>
-    <title>Akıllı Tarım</title>
+    <link rel="stylesheet" href="css/color_theme.css">
+    <title>Insider</title>
 </head>
 
 <body>
 
-    <!-- navbar -->
-    <header class="menu-bar -mb-96">
-        <h1 class="logo">Light<span>Code.</span></h1>
-        <ul>
-            <li><a href="#">Türkiye</a></li>
-            <li><a href="#">Şehirler <i class="fas fa-caret-down"></i></a>
-                <div class="dropdown-menu">
-                    <ul>
-                        <li><a href="#">İstanbul</a></li>
-                        <li><a href="#">Ankara</a></li>
-                        <li><a href="#">Malatya</a></li>
-                    </ul>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top navbararkaplan ">
+        <div class="container ">
+          <a class="navbar-brand " href="#">Akıllı Tarım</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div>
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class=" nav-link" href="anasayfa.html">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class=" nav-link" href="#">Hakkımızda</a>
+              </li>
+              <li class="nav-item">
+                <a class=" nav-link" href="Turkiye.html">Türkiye</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Şehirler
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
                 </div>
-            </li>
-            <li><a href="#">Hakkımızda</a></li>
-            <li class="mr-72"><a href="#">İletişim</a>
-            </li>
-            <li class="bg-green-500 rounded hover:bg-green-400"><a href="#">Çiftçi Giriş</a></li>
-        </ul>
-    </header>
-    <div class="hero">
-        &nbsp;
-    </div>
+              </li>
+              <li class="nav-item">
+                <a class=" nav-link" href="#">Form</a>
+              </li>
+              <li class="nav-item">
+                <a class=" nav-link" href="#">İletişim  </a>
+              </li>
+              <li class="nav-item">
+                <a class=" nav-link" href="log-in.html">Kullanıcı Giriş/Oluşturma</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
 
-
-    <div class="container text-center items-center myBody bg-amber-100">
-        <!-- başlık -->
-        <section class="bg-amber-200 p-10 bigHeader ">
-            <span class=" px-2 text-5xl ">
-                <h1
-                    class=" font-semibold leading-[50px] tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-orange-500 mb-10 text-6xl">
-                    See our Works
-                </h1>
-                <p class=" text-gray-400 text-xl">We create digital assets and we're focused on Web
-                    Technologies and
-                    Design,
-                    based on London, United Kingdom. We build creative &amp; professional themes. <br> Lorem, ipsum
-                    dolor
-                    sit amet consectetur adipisicing elit. Inventore, tenetur.</p>
-            </span>
-        </section>
-
-        <!-- resim - yazı -->
-        <section class="ortala my-16 ">
-            <div class="grid grid-cols-2 gap-2">
-                <div>
-                    <img src="images/farmer.png" alt="buğday" class="w-96 rounded-3xl sm:w-96 border border-green-200">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nisi molestiae architecto quis
-                        sequi eligendi quasi quia ducimus velit fugit?</p>
-                </div>
-                <div class="solinik">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, veritatis. Lorem ipsum dolor, sit
-                        amet consectetur adipisicing elit. Alias, accusantium! </p>
-                    <img src="images/bugdayaBakanCiftci.png" alt="buğday tarlası"
-                        class="w-96 rounded-3xl border border-green-200">
-                </div>
-            </div>
-        </section>
-
-        <!-- Türkiye Oran -->
-        <article class="bg-amber-500 my-10">
+    <!-- ilk container -->
+    <header>
+        <div class="text-lefft bg-secondary text-light baslik">
             <div>
-                <header class="text-6xl py-10">
-                    <h1 class="text-transparent bg-clip-text bg-gradient-to-b from-red-950 to-gray-500">2023
-                        Türkiye'de...</h1>
-                </header>
-                <!-- Bölgeler Oran Barları -->
-                <div class="uppercase">
-                    <div class="grid grid-cols-4 mx-56 mb-3 ">
-                        <div class="box">
-                            <div class="percent">
-                                <svg>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                </svg>
-                                <div class="num">
-                                    <h2>22<span>%</span></h2>
-                                </div>
-                            </div>
-                            <h2 class="text">Marmara</h2>
-                        </div>
-                        <div class="box">
-                            <div class="percent">
-                                <svg>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                </svg>
-                                <div class="num">
-                                    <h2>87<span>%</span></h2>
-                                </div>
-                            </div>
-                            <h2 class="text">Karadeniz</h2>
-                        </div>
-                        <div class="box">
-                            <div class="percent">
-                                <svg>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                </svg>
-                                <div class="num">
-                                    <h2>87<span>%</span></h2>
-                                </div>
-                            </div>
-                            <h2 class="text">akdeniz</h2>
-                        </div>
-                        <div class="box">
-                            <div class="percent">
-                                <svg>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                </svg>
-                                <div class="num">
-                                    <h2>87<span>%</span></h2>
-                                </div>
-                            </div>
-                            <h2 class="text">iç anadolu</h2>
-                        </div>
-                    </div>
-
-                    <div class="grid grid-cols-3 mx-64 ">
-                        <div class="box">
-                            <div class="percent">
-                                <svg>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                </svg>
-                                <div class="num">
-                                    <h2>87<span>%</span></h2>
-                                </div>
-                            </div>
-                            <h2 class="text">ege</h2>
-                        </div>
-                        <div class="box">
-                            <div class="percent">
-                                <svg>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                </svg>
-                                <div class="num">
-                                    <h2>87<span>%</span></h2>
-                                </div>
-                            </div>
-                            <h2 class="text">güneydoğu anadolu</h2>
-                        </div>
-                        <div class="box">
-                            <div class="percent">
-                                <svg>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                </svg>
-                                <div class="num">
-                                    <h2>87<span>%</span></h2>
-                                </div>
-                            </div>
-                            <h2 class="text">doğu anadolu</h2>
-                        </div>
-                    </div>
-                </div>
+                <h1 class="font-weight-bolder  display-3">Lorem ipsum dolor sit amet</h1>
+                <p class="font-weight-bold">Milletimiz çok büyük elemler, mağlûbiyetler, facialar görmüştür. Bütün
+                    olanlardan sonra yine bu topraklarda bulunuyorsa bunun temel sebebi şundandır: “Çünkü Türk çiftçisi
+                    bir eliyle kılıcını kullanırken, diğer elindeki sapanla topraktan ayrılmadı. Eğer milletimizin büyük
+                    ekseriyeti çiftçi olmasaydı biz bugün dünya yüzünde bulunmayacaktır.” .</p>
             </div>
-        </article>
+        </div>
+    </header>
 
-        <!-- farmer card -->
-        <article class="farmer-card">
-            <!-- Component: Horizontal card-->
-            <div
-                class="flex flex-col overflow-hidden bg-white rounded-3xl shadow-2xl sm:flex-row text-slate-500 shadow-gray-400">
-                <!-- Image -->
-                <figure class="flex-1">
-                    <img src="images/bugdayaBakanCiftci.png" alt="card image"
-                        class="object-cover min-h-full aspect-auto " style="width: 60%;" />
-                </figure>
-                <!-- Body-->
-                <div class="flex-1 p-6 sm:mx-6 sm:px-0 text-left">
-                    <header class="flex gap-4 mb-4">
-                        <div>
-                            <h3 class="text-xl font-medium text-slate-700">Çiftçi Kemal Köylü kemal Köylünün dostu
-                                başkanı kemal</h3>
-                            <p class="text-sm text-slate-400"> By Sue, jun 3 2023</p>
-                        </div>
-                    </header>
-                    <p>
-                        After a walk through history, there is nothing left to do but admire the hypnotizing landscapes
-                        that exist in every direction. From vast deserts to rainbow mountains, and everything in
-                        between. Lorem ipsum dolor sit amet consectetur adipisicing elit. A eaque aliquam quasi odio
-                        aspernatur. Magni, totam est maxime nulla dolorum obcaecati illo deserunt cupiditate velit error
-                        repudiandae molestiae corrupti provident. Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Ea earum sed dignissimos! Impedit, quaerat expedita animi iste asperiores dolorum. Aperiam
-                        veniam, quas tempore porro voluptatum illo neque nemo ducimus sequi?
-                    </p>
-                </div>
+
+    <!-- card & image - Text -->
+    <div class="container-fluid align-items-center bg-warning ">
+        <div class="d-flex justify-content-center images">
+            <div class="y-eksen mx-1">
+                <img src="images/bugdayaBakanCiftci.png" alt="" class="radius y-eksen">
+                <h4>Lorem ipsum dolor sit amet.</h4>
             </div>
-        </article>
-
-        <!-- Markaların sergilenmesi -->
-        <section class="section py-16">
-            <div class="container bg-slate-600 py-5 my-auto">
-                <div class="grid lg:grid-cols-4 gap-10">
-                    <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8vWudlY8BVzgLbMW4ZgbMsfRb8xX76GATw&usqp=CAU"
-                            class="opacity-70 hover:opacity-100 transition-all mx-auto block" alt="client-logo">
-                    </div>
-                    <div>
-                        <img src="https://c.static-nike.com/a/images/w_1920,c_limit/mdbgldn6yg1gg88jomci/image.jpg"
-                            class="opacity-70 hover:opacity-100 transition-all mx-auto block" alt="client-logo">
-                    </div>
-                    <div>
-                        <img src="https://cdn.cimri.io/market/260x260/lecola-1-lt-kola-_1431666.jpg"
-                            class="opacity-70 hover:opacity-100 transition-all mx-auto block" alt="client-logo">
-                    </div>
-                    <div>
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAilBMVEX///8AAAD29vbz8/OysrIQEBANDQ3u7u75+fkICAjp6enk5OS3t7etra3f39/T09O8vLzZ2dnFxcUmJibOzs7GxsY4ODhLS0tmZmY1NTWbm5thYWEpKSkfHx91dXVXV1dtbW2enp5DQ0MXFxeTk5ODg4OdnZ18fHwvLy+IiIhOTk5FRUWmpqZbW1tVhr39AAARoUlEQVR4nO2diZaiyBKGCUBB1gTBfUHFnXr/17sRkclmWdPdM+N4LvhPLZZVfebkd/6IjFzI1LSPPvroo48++uijjz766KO/kq2TDAM/pPAH/an4V/xZ/an6NOx3t+K/kB5FroP/KQUBfyFFTYWopFKapnGMH7FgeZ7pmWbSeV5BGBm2LV1jWEoOqWRWggulalypZIWkfN8nWkX47ta8VqFhhKkQMYsAKBYSjHKVAob0Sv+5jFOSpRjEL1YgzCJ+d3teqcCyE0/EilGLUFS5qsmnhlQnLLYlfYa7a/TuFr1OeugkXny9j/9aq4cfWdUL9ePWtHWRL97dpNcJ85AZf8G/pKOuC9HdtJWEwsthuEt+Q+GDonbQRguAVA8S8e42vUyhI8QUFmVHFz1T0JbblNOQfoSjjVH97ja9TKHjxRMww7Ztfobluj+yciwfZpoTm+9u08tUwkJAsphq9IVUZdWVFpZdFSvLapCiftHibwTLNYt3t+llSlxPMKyomGVZdhRuicrxNtv7LSvKynSZVbayZrOoslN03N6XOy4lEJbtFrt3t+llUrCiMLrKDm0rxzhBMlE93NB3ePwDw6AMPR0gVKwMT/2ZgqW5u9O72/QyIay4hJVFSTGGI9EKBMDqlASRPwXIHYZ1CBwVejbC4sBzLAd/7TpJRrB0Cau7hRbCSiWsHDZuFJhwCSh7AXzxyNqxcoCYXsKhSucMSxbxApYalvJ2TJU8w1rk727Ty5S4IiFYUcCwohCA0voZ9uUshHWGCdrIJWephK7VsDyYlLM1VvdhBTWsMw6TC5hQp7cGr6oOXICEYaGzLB4VIqxIDQ6tESwdW01sdR9WnOwVrFksMOYWCAv9VZdRxhR2FsMq528IljSTpceY3BdyLtA2sTcMug8rIFgjbPc6t7DTEzB3ymzuWBvIMZc/g0WEojvAILZ74qxwD14QuTnsz3cYp5SrEjjUhbmxhNwoYTEggtWYgPaHAJ5t6OQsLciv727Ty5QEaUSwAoR1NiwstiKZpkKrTOfY98UMyzEkqzYsNJd1A0BoDMvtMKw0SCpYG8fFkNtTBbWETFdTfHoBB3QUwzK+weJFDFu/gLBLWN0NQwUL3YTOsjBLXWCBXV4CUOiSVUgJ3HgGizDFkYbftAzMEtai084KalhophhGASLCbvEcYPuNBY6AyEUIy9Jo8cbWCVbA/9rWdkDTVxG+UcHqsrNCgoUBiGFoICx9A1P0lH3CrnG8pQHijCPOgoEcBOa2rsFgxK9DDVnCEodEZ003euCs0CVYjrUYnXkhzJnDAl/YwflCpcQy5ZJTd2DNouSkqdcH17aT24gKDmRldN5ZMRYNdxDNNRvkJTs5Awc+lqarPF4WWXr7ta05QWDwX+kM69RhWFHkICxLrQBaRkvPV/AfRSu0RgVr131YT0j9Liu1ll2GYedhxbREarclf2/zx6+Ef03/gsaGnYe1nu/3+8lkz1/x++RvasXTyl2GFVj39ehfWmQdYRh2HdaweFw//RPVi7A59ADWKLZlr/Z3VGd4meC7DcuYjuKf9vn9bkfYmCntMCxBsIZxWTH9xV+WHvqRVQmru6s7InSN6UDBsqPZ5rnOxx3tjvnGq12WMSy/w85qwtK162Cthn2swWAwRI1GsruceYb2M6s+hKGrTw9xaRlrfLmsVhe5U228bpE7DHDEvNDtn1j1AFbYgqXdLhfCNfheeQ0lr3Gq9RvWuoa1WRGttWjtYkvTWOQ3AKI1hIX2FFU/YNnTddqANUdYh+BbOaVpwZJpDSDXegvLsVvOuszn88s6KN+oMxTyyoFS/gB87RmrvsBKn8KyHqVdYcC0Aluz+wgrcbTp+AHWHGHZuu3DuqXDXZ8MGdbNvnqO3b8E/w3WpISFPxzG7dKhEMpaSQ6w9bTvRakddBqW9QTWmGHZIchaS5ang+FooIG01lSnxZ610PoOayJh0VvAlenqvle6hEdlLXeGL4aQ1Q/dWYbcU9rhmdJvsOYTpMWwaMmLYB02jb83Faydxy9gLyfueVGIYQUdXt35HVhZXbPbkYI1NS6S1kU+EFbtVg5O3V1kfQprImHZGqweYQUS1gA05zLiFzPdUk8pSlgdXpH+U1huCcspuYFXFmT9g3XhZZpfwwp1VaKODlZfYHlPYf3oLL0Kw0TXXVVH7Fph2OHNbF76Z7CiGpahbaW11nZvYBlPctYPYYh1pyhhBbqhF2U93+wN8+O72/QyPYc1pq1pz2DZeQnLxoohUbDy3sD6IQyfwMLiU7tJPqMVDXRUtoevnsAyf52zBhKWHNSUxjrSFI1VkrP6Asv4Dmv+LMETKtsvYcU6bXqTPw1B7e5CWHpw7TCs+Imz5t+dJX1l75WX1ly1O1WF2g9Y3p/A0uOSzpWrharokpssDYbV5TD8PVhqwmo1UnEnH+OJYTiUYVg9UN43WGryj2HRdFblrHIKHmsFHg4ahSzhR/MGrKjLsMS3gXQL1nq9Hipn2VVBupalgj4jWMMhLI0KltFlWP43WOWChZzPkrCYlSpBMepUxW6tR7QTYgi51VNYlxqW3YSFrIbKWKaakxEwlLBS9WwiwrK6DOtbGNawdPUkBcPS/IqVfALKcfQvCWs01NUDwgXCCjsMi531uMhKsPQKFsw025pVMbjTHWZlRaWxFk4L1vndbXqZfO8JrItcN2RYAPPYLkCxGskY5Adct8pYo+okEYTldB9Wa68D7aIpYcHoGmr+CgYHGYKjUFfnAWIFqoyVO+oAFoaVXLsLqzAfnMVbjg6818HWTNdOzuiqg2K1sZStHCsE1RVOqnMUCZbbfVgP+7NWB1ezdSvwTtsD78o6qNzuGYqV4w5UEEJYnzm56wGs+6HhrDHBGs9mtxVt9xuobQ60EZCW7x3lq2BcBqHvVGeaEqwgvW5+/X/9P1XhE6y4CYsOO2zuJqUtk5djhGObIWx0zlcxlKwKq3H+6w6W3Yc1aMBay823itUQHXW4LUJDNywyEx20Ylm5ylcj2ElfqTO3TgTr2C9YyIopoX22Vz/SLZros4wdwbpZhjcvbYUx2DpWmGDFHYa1I1ijJiza033Y5IVIA9sKRL6EpV4PBUEUVQiukyarMIwWsIw6Dat4gHWgGARXk8MdVibXBfWcrDU3RqpmyNrHVfcA1olgQRMWj3DkgSAa8O7kDMlZoXeyyFJgUqYnj+2cZgiGPYC1KxyCpVewBm1YNBy8fF3YYVifIqOxgbUXRuQIopavUARLnLN3t+llOj2DdahgqcEzyLjjqh3E7hjF+AqWbtNXElbYZViLR1hDKq7asAaqTgBrzx2i4bgOjaLpJKkaVZL0BVads/gRHT5LzCphyTR/uGXJjrNW4gZuSrAubsNWoYK1yd7dppdpsXuANaphWRIWTE0v5TP+nIDj8IyZ3ZkSrVPQuq8h7zqs0wMsfj4HYfETFcDrEZmalnFd50aIDjTD4FGfCOVlDUnYB1j5QsJSF5wwrEENixP7zJCo+NwoHjwTrQtxy4PmA/gS1uzdbXqZFKxyN7udycjjqLPsR1huwrCWVGEtCNY6ap5VwLCyDsPKfwdWdc+MQUlrBC6FH+evXVTfltJXWHzArVPCsqo7eZxMxWEUBTOy1iSqL5bpGSyrCcupYdWn5S8Y1oycZXKK98LyYdc4zamCny3f3aaXqQULB8sMa6gO3tTbsGhwEzOsNXWCWEeMRljWVxcW9QYWn5MsYRENedz7E1gJz/tBTJMMGdOKmBRdhEWwQm/59e42vUwEaw9C+ophDSUstw2rup1hzIRyglXwy5O6Nwx1JWd1HNadYcltoRUsqhUMBcupLwxz5kzoRvVVCvgatokkJWGFXYdFzlJPlDSc5T6BFdFpigRrTQVDNOHXylZC9ARWrGA5pbMS9wksGge6NwI0AkGzDGeGtVB30QkZhl/bd7fpZcqvpbPoSooHWJaCVc9bVbAW1AnuGNYyEUrsrA7Dul5dW4Uhrwg2YAVBBau+D9LdS1gbKhiEDMm0Ccvbdh5WuSpvMawRTVnRvUQPsDCpy95wBJeI6gVgWmbfYQXfYMkZvphZIaGAqlDZNR5lyvJ6A0vu9nCtrwasqIQV1JeIHUtYdB9rOmVYXzFfNSphmV2GdQwqWJTSV7JCLzijP8DC/i9RrEawwy4w3cqYTDypIyZ7c3t7d5teJoSlK1g0qaD21MLN4a6vBYtYzStY1AeWsPwmrFt3YR0lLDW3F1ZHi13pQroSlpqGCYth4/CxPBaxgpX3DJYcKguT2myi/EjCosXUElay81FFKYSl6oiZ6AmscwUraFxnKDs/V7GIyqnQasisagUZlLAVTJhhed2GZfC1DDWmei0wkLCWUXXFdgMUKlewLtKNfXAWwhIP97eHzaIK7uip9MFTFHjxqqwjmFUfYEXkLPdxjwfPKlyhrKnKWZgGKi9eVl3jtems6bvb9DIdN5HVhlWfxS3Kju+efkfledu6Z1yzs8yuwzqfGda3CKSEfj4fz2f6silaqYpRifPmzOLjhPMKlt/hMDxvFKzWfhhVV9XHlD6iepTZgNVhZylYFar2Wa6crISIH1GZT9V9WKHTCMOWs+pqoZGuxE+wfL8nsHJZtZeqivRiJ3VanE6LUvmPyjoPK0FY/5o63htuEncP++12e7tt/6G+9gRren93m14mCcsLHtJ7+mx00+oJn2Stzhel54xgmU1KElH8rQdsAvKfyTyzs7oLa5PRZZBms6QiUk/cVHHiju8pLJ516AUsrqjSpIy8OPX8whcxYfJ9xcojJIjLw26ykP4q+00FK/Q6nLM2WRpMwMRy/Ui92fjLU6vL+YQHfV++8PwBbORI+QpAqDb84OZ6myOush9cyKK047BihOVjBB5htbxhqz2GNaeLvzIqKo7C2yELolUAoJ92A4Qqf4duAuDDDVa7Eta9+7BShLXBr1+wJWsd4FLQqrw3Q1oeOQrDzxvB2SNiNy9GNOJ6YVgx4zVLWPtOw4pKWFkiYhMGGINfMOFkRZMLGHmmWNJs6BRuwvfGkAmV0Cl9oRX9RukQefv9u9v0MilYKcNK0SDoFPoiyi5Q3CFDahOYbWAtfPMKc9HsARGW6dewwj7AilMOw3RJ68tnuMXVOk8Oc/xO99ujh3yklpttWHJfSAnLnHQZlqhgzZfbMXlKzChPVYUVvoVfF9ThIZw1FE1W+Fs+Vp+Aygp+Mnl3m14mhBUiLCyuuHSAC+YqzFDHRrUuYQmqGlCHBixyU1k60JIjw5p32lkIi6aNcaxi5nLBNINNzaqoYBEfbw2nGhXDktlNlIus8+46K1OwBMLKYnq0/iq8HAZxNTrewJYyuoJl3mBGDquSetUXyF00iXnpNKyEYWFWzzBd5RhtnjdoxOGIc1UJy8+5MFWk8E8JltkvWELB8sQXFlNoLSzcJY4x7GNf5SwqrLwbHApB6VyIq0+wZFGqdv4l5mr+7ja9TNnGa8Gi1ucexh5MroW/wAL+Irj6VLAQEo6EtrnvLzZr8D18W84z+z2DJTfD0GAZh8zqyWgkKBlVsEzM/0oX4VULsUe1p7TLsDbnEtYiWwi5eppd6dsiWy5nVyEqRBuVxrDju86+lrOjmeCfqUtbs0I9NNBpWMcSVjnPZ6pRscnrXnUJQe9W/Z6o1hLjerGs87DOVy+dE6xqQlR+qTq8GldrCRpBiiqxKzEsb3V5d5tepuPVjKe8Odt7vjD/XQ+EYuUuIdIZnBN/3d3SYXEsBA77zrvdjhZQT+rzQSfWrtSJP2qp5VjsQkWy2Hb3UNd4s4nj2b+1xnpNkulUvLtNL5O9vVzjdLG8KU1vzzT9Lc38JDmvu5vfNS1dj6/VOmG9qsrvtCTXXdOW5Lbc+qf0ehmk727RK1UcxreFKX6l+CdVG21wGL7cX4p3t+e1EuP1arzfTyZzPqJU3uT+oGfvSa3Haz4mcHWZLr/u8+4mLCXbX+6n9/t+wpr/Xd2/Mt9+d1v+C9GVQzrfVPHkMm3j57db6gWpjz766KOPPvroo48++ugf6H/hwXp7Zi4E9wAAAABJRU5ErkJggg=="
-                            class="opacity-70 hover:opacity-100 transition-all mx-auto block" alt="client-logo">
-                    </div>
-                </div>
+            <div class="y-eksen mx-1 ">
+                <h4 style="margin-top: 50%;">Lorem ipsum dolor sit amet.</h4>
+                <img src="images/farmer.png" alt="" class="radius y-eksen">
             </div>
-        </section>
-
-
-        <!-- footer -->
-        <footer>
-            <!-- Component: Five Columns Footer with Logo and Sub Footer -->
-            <div class="text-slate-500">
-                <!-- Main footer -->
-                <div class="pt-16 pb-12 text-sm border-t border-slate-200 bg-slate-100">
-                    <div class="container px-6 mx-auto">
-                        <div class="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
-                            <nav class="col-span-2 md:col-span-4 lg:col-span-3"
-                                aria-labelledby="footer-product-5-logo-sub">
-                                <h3 class="mb-6 text-base font-medium text-slate-700" id="footer-product-5-logo-sub">
-                                    Product</h3>
-                                <ul>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Features </a>
-                                    </li>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Customers </a>
-                                    </li>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Why us? </a>
-                                    </li>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Pricing </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <nav class="col-span-2 md:col-span-4 lg:col-span-3"
-                                aria-labelledby="footer-docs-5-logo-sub">
-                                <h3 class="mb-6 text-base font-medium text-slate-700" id="footer-docs-5-logo-sub">Docs &
-                                    Help</h3>
-                                <ul>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Documentation</a>
-                                    </li>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Training </a>
-                                    </li>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            System status </a>
-                                    </li>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            FAQ's </a>
-                                    </li>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Help Center </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <nav class="col-span-2 md:col-span-4 lg:col-span-3"
-                                aria-labelledby="footer-about-5-logo-sub">
-                                <h3 class="mb-6 text-base font-medium text-slate-700" id="footer-about-5-logo-sub">About
-                                    us</h3>
-                                <ul>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            About us </a>
-                                    </li>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Careers </a>
-                                    </li>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Leadership </a>
-                                    </li>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Blog</a>
-                                    </li>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Events </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <nav class="col-span-2 md:col-span-4 lg:col-span-3"
-                                aria-labelledby="footer-get-in-touch-5-logo-sub">
-                                <h3 class="mb-6 text-base font-medium text-slate-700"
-                                    id="footer-get-in-touch-5-logo-sub">Get in touch</h3>
-                                <ul>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Contact </a>
-                                    </li>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Support </a>
-                                    </li>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Partners </a>
-                                    </li>
-                                    <li class="mb-2 leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Join research </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-                <!-- Sub Footer -->
-                <div class="py-4 text-sm border-t border-slate-200 bg-slate-100">
-                    <div class="container px-6 mx-auto">
-                        <div class="grid items-center grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
-                            <a id="WindUI-5-logo-sub" aria-label="WindUI logo" aria-current="page"
-                                class="flex items-center col-span-1 gap-2 text-base font-medium leading-6 whitespace-nowrap focus:outline-none md:col-span-4 lg:col-span-6"
-                                href="javascript:void(0)">
-                                <svg width="300" height="300" viewBox="0 0 300 300" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 shrink-0 bg-emerald-500">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M88.1121 88.1134L150.026 150.027L150.027 150.027L150.027 150.027L150.028 150.027L150.027 150.026L88.1133 88.1122L88.1121 88.1134ZM273.878 273.877C272.038 274.974 196.128 319.957 165.52 289.349L88.1124 211.942L26.1434 273.911C26.1434 273.911 -20.3337 196.504 10.651 165.519L88.1121 88.1134L26.1417 26.1433C26.1417 26.1433 69.6778 0.00338007 104.519 0H0V300H300V0H104.533C116.144 0.00112664 126.789 2.90631 134.534 10.651L211.941 88.1123L273.877 26.177C274.974 28.0159 319.957 103.926 289.349 134.535L211.942 211.942L273.878 273.877ZM273.878 273.877L273.912 273.857V273.911L273.878 273.877ZM273.877 26.177L273.911 26.1429H273.857C273.857 26.1429 273.863 26.1544 273.877 26.177Z"
-                                        fill="#f1f5f9" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M0 0H300V300H0V0ZM150.026 150.025C121.715 99.731 88.1131 88.1122 88.1131 88.1122L10.6508 165.519C10.6508 165.519 26.143 150.027 150.026 150.027H150.027C150.026 150.027 150.026 150.027 150.026 150.027L150.026 150.027C99.731 178.339 88.1124 211.941 88.1124 211.941L165.52 289.348C165.52 289.348 150.032 273.86 150.027 150.027H150.029C178.341 200.323 211.944 211.942 211.944 211.942L289.352 134.535C289.352 134.535 273.864 150.023 150.027 150.027V150.027L150.027 150.027C200.322 121.715 211.941 88.1125 211.941 88.1125L134.534 10.651C134.534 10.651 150.026 26.1431 150.026 150.025ZM150.027 150.027L150.026 150.027C150.026 150.026 150.026 150.026 150.026 150.025C150.026 150.025 150.027 150.026 150.027 150.027ZM150.027 150.027L150.027 150.026L150.027 150.027C150.027 150.027 150.027 150.027 150.027 150.027L150.027 150.027ZM150.027 150.027C150.027 150.027 150.027 150.027 150.027 150.027H150.027L150.027 150.027Z"
-                                        fill="rgba(255, 255, 255, .2)" />
-                                </svg>
-                                Brand
-                            </a>
-                            <nav class="col-span-3 md:col-span-4 lg:col-span-6"
-                                aria-labelledby="subfooter-links-5-logo-sub">
-                                <h3 class="sr-only" id="subfooter-links-5-logo-sub">Get in touch</h3>
-                                <ul class="flex flex-wrap items-center justify-end gap-2 lg:gap-4">
-                                    <li class="leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            T&C </a>
-                                    </li>
-                                    <li class="leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Privacy</a>
-                                    </li>
-                                    <li class="leading-6">
-                                        <a href="javascript:void(0)"
-                                            class="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
-                                            Cookies </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Five Columns Footer with Logo and Sub Footer -->
-        </footer>
-
+        </div>
     </div>
 
+    <div class="container-fluid bg-dark text-center ">
+        <div class="container p-5 ">
+            <header>
+                <h1 class="text-white">2023 Türkiye'de...</h1>
+            </header>
+            <!-- cards -->
+            <div class="container">
+                <div class="card-deck mb-3 text-left">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Akdeniz</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
+                                haşhaş ve de pamuk
+                                .</h6>
+                            <p>_________________________</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:87%; background:#edbb18;">
+                                    <div class="progress-value">87%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Akdeniz</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
+                                haşhaş ve de pamuk
+                                .</h6>
+                            <p>_________________________</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:87%; background:#edbb18;">
+                                    <div class="progress-value">87%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card-deck mb-3 text-left">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Akdeniz</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
+                                haşhaş ve de pamuk
+                                .</h6>
+                            <p>_________________________</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:87%; background:#edbb18;">
+                                    <div class="progress-value">87%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Akdeniz</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
+                                haşhaş ve de pamuk
+                                .</h6>
+                            <p>_________________________</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:87%; background:#edbb18;">
+                                    <div class="progress-value">87%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card-deck mb-3 text-left">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Akdeniz</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
+                                haşhaş ve de pamuk
+                                .</h6>
+                            <p>_________________________</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:87%; background:#edbb18;">
+                                    <div class="progress-value">87%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Akdeniz</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
+                                haşhaş ve de pamuk
+                                .</h6>
+                            <p>_________________________</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:87%; background:#edbb18;">
+                                    <div class="progress-value">87%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card-deck mb-3 text-left">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Akdeniz</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
+                                haşhaş ve de pamuk
+                                .</h6>
+                            <p>_________________________</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:87%; background:#edbb18;">
+                                    <div class="progress-value">87%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
