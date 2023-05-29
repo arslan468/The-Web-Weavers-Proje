@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/color_theme.css">
-    <title>Insider</title>
+    <title>Akıllı Tarım</title>
 </head>
 
 <body>
@@ -62,6 +61,50 @@
           </div>
         </div>
     </nav>
+
+    <div class="container mt-5">
+      <?php
+        include("connect.php");
+        $datacek = $connection->prepare("SELECT * FROM form order by views desc");
+        $datacek->execute();
+
+        while ($row = $datacek->fetch(PDO::FETCH_ASSOC))
+        {
+          $id = $row['id'];
+          $ad = $row['name'];
+          $problem_title = $row['problem_title'];
+          $problem = $row['problem'];
+          $views = $row['views'];
+          $time = $row['time'];
+
+          echo
+          "
+          <div class='row'>
+            <div class='col-lg-12 bg-opacity-50 bg-success bg-gradient rounded m-auto mt-5 h-10'>
+              <div class='text-dark formdivi'>
+                <h3>$problem_title</h3>
+                <p class='m-0 p-0 text-black-50'>$ad</p>
+              </div>
+              <div class='formdivi text-dark-emphasis'>
+                <h4>$problem</h4>
+              </div>
+              <div class='d-flex justify-content-end'> 
+                <p>$time</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>Görüntülenme: $views</p>
+              </div>
+            </div>
+          </div>
+
+
+          ";
+        }
+
+      ?>
+
+    </div>
+
 
 
 
