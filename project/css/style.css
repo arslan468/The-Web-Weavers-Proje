@@ -1,202 +1,109 @@
-.ortala {
-    width: 50%;
-    margin: auto;
-    margin-top: 10%;
+#map {
+    position: relative;
+    margin-bottom: 150px;
+    margin-left: 200px;
 }
 
-.bigHeader {
-    margin-top: -250px;
+#map_png {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
 }
 
-.solinik {
-    margin-top: 60%;
+#bolgeler {
+    position: relative;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 200px;
 }
 
-
-.farmer-card {
-    margin: 5%;
-}
-
-/* ! Progress bar */
-
-.box {
-    margin: auto;
-    background: #fff;
+.bolgeler_png {
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
     width: 200px;
+    height: 350px;
+    object-fit: cover;
+}
+
+#bolgeler_Karadeniz_png {
+    margin-top: 600px;
+    margin-left: 150px;
+}
+
+#bolgeler_Akdeniz_png {
+    margin-top: 650px;
+    margin-left: 350px;
+}
+
+#bolgeler_Ege_png {
+    margin-top: 600px;
+    margin-left: 550px;
+}
+
+#bolgeler_Marmara_png {
+    margin-top: 1000px;
+    margin-left: 150px;
+}
+
+#bolgeler_İcAnadolu_png {
+    margin-top: 1050px;
+    margin-left: 350px;
+}
+
+#bolgeler_DoguAnadolu_png {
+    margin-top: 1000px;
+    margin-left: 550px;
+}
+
+#bolgeler_GuneyDoguAnadolu_png {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    margin-top: 1450px;
+    margin-left: 150px;
+    width: 600px;
     height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    flex-direction: column;
-    box-shadow: 0 30px 60px rgba(0, 0, 0, .4);
-    transition: transform .2s;
-    margin-bottom: 10%;
+    border-radius: 50px;
 }
 
-/* .box:hover
-{
- transform:scale(1.2);
-} */
-.box .percent {
-    width: 150px;
-    height: 150px;
-    position: relative;
+#karadeniz_header {
+    margin-top: 560px;
+    margin-left: 190px;
 }
 
-.box .percent svg {
-    width: 150px;
-    height: 150px;
-    position: relative;
+#Akdeniz_header {
+    margin-top: 600px;
+    margin-left: 100px;
 }
 
-.box .percent svg circle {
-    width: 150px;
-    height: 150px;
-    fill: none;
-    stroke-width: 10;
-    stroke: #000;
-    transform: translate(5px, 5px);
-    stroke-dasharray: 440;
-    stroke-dashoffset: 440;
-    stroke-linecap: round;
+#Ege_header {
+    margin-top: 560px;
+    margin-left: 150px;
 }
 
-.box .percent svg circle:nth-child(1) {
-    stroke-dashoffset: 0;
-    stroke: #f3f3f3;
+#Marmara_header {
+    margin-top: 965px;
+    margin-left: -475px;
 }
 
-.box .percent svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 87) / 100);
-    stroke: #03a9f4;
+#İcAnadolu_header {
+    margin-top: 1020px;
+    margin-left: 100px;
 }
 
-.box .percent .num {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    color: #111;
+#DoguAnadolu_header {
+    margin-top: 960px;
+    margin-left: 60px;
 }
 
-.box .percent .num h2 {
-    font-size: 48px;
-}
-
-.box .percent .num h2 span {
-    font-size: 24px;
-}
-
-.box .text {
-    padding: 10px 0 0;
-    color: #999;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-
-
-
-/* ! Navbar */
-
-:root {
-    --color-primary: #0073ff;
-    --color-white: #e9e9e9;
-    --color-black: #141d28;
-    --color-black-1: #212b38;
-}
-
-.logo {
-    color: var(--color-white);
-    font-size: 30px;
-}
-
-.logo span {
-    color: var(--color-primary);
-}
-
-.menu-bar {
-    background-color: var(--color-black);
-    height: 80px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5%;
-    position: relative;
-}
-
-.menu-bar ul {
-    list-style: none;
-    display: flex;
-}
-
-.menu-bar ul li {
-    /* width: 120px; */
-    padding: 10px 30px;
-    /* text-align: center; */
-    position: relative;
-}
-
-.menu-bar ul li a {
-    font-size: 20px;
-    color: var(--color-white);
-    text-decoration: none;
-    transition: all 0.3s;
-}
-
-.menu-bar ul li a:hover {
-    color: var(--color-primary);
-}
-
-.fas {
-    float: right;
-    margin-left: 10px;
-    padding-top: 3px;
-}
-
-/* dropdown menu style */
-.dropdown-menu {
-    display: none;
-}
-
-.menu-bar ul li:hover .dropdown-menu {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background-color: var(--color-black);
-}
-
-.menu-bar ul li:hover .dropdown-menu ul {
-    display: block;
-    margin: 10px;
-}
-
-.menu-bar ul li:hover .dropdown-menu ul li {
-    width: 150px;
-    padding: 10px;
-}
-
-.dropdown-menu-1 {
-    display: none;
-}
-
-.dropdown-menu ul li:hover .dropdown-menu-1 {
-    display: block;
-    position: absolute;
-    left: 150px;
-    top: 0;
-    background-color: var(--color-black);
-}
-
-.hero {
-    height: calc(100vh - 80px);
-    background-image: url(./bg.jpg);
-    background-position: center;
+#GuneyDoguAnadolu_header {
+    margin-top: 1410px;
+    margin-left: -400px;
 }
