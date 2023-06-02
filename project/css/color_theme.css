@@ -88,3 +88,19 @@ body
     font-family: cursive;
   }
 /* navbar - end */
+
+
+.footerrr
+{
+  text-decoration: none;
+  font-family: cursive;
+  color:#52734D;
+  transition: 0.2s;
+
+}
+
+.footerrr:hover
+{
+  color:#96c78e;
+  transition: 0.2s;
+}
