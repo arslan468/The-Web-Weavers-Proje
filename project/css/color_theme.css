@@ -104,3 +104,15 @@ body
   color:#96c78e;
   transition: 0.2s;
 }
+
+.submitbutton
+{
+  transition: .5s;
+}
+
+.submitbutton:hover
+{
+  background-color: #a3a39f;
+  color: #fff;
+  transition: .2s;
+}
