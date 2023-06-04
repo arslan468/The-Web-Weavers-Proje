@@ -1,147 +1,123 @@
-body
-{
-    background-color: #f8f8e7;
-    color: #52734D;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  background-color: #f8f8e7;
+  color: hsl(0, 0%, 0%);
+  font-family: Poppins;
 }
 
 /* navbar - start */
 .carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  .carousel-caption {
-    bottom: 270px;
-  }
-  
-  .carousel-caption h5 {
-    font-size: 45px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 25px;
-  }
-  
-  .carousel-caption p {
-    width: 75%;
-    margin: auto;
-    font-size: 18px;
-    line-height: 1.9;
-  }
-  
-  .navbar-light .navbar-brand {
-    color: #52734D;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    transition: .5s;
-  }
-
-  .navbar-light .navbar-brand:hover {
-    color: #91C788;
-    transition: .5s;
-
-  }
-  
-  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-    color: #52734D;
-  }
-  
-  .navbar-light .navbar-nav .nav-link {
-    color: #52734D;
-  }
-  
-  .navbar-toggler {
-    background: #fff;
-  }
-  
-  .navbar-nav {
-    text-align: center;
-  }
-  
-  .nav-link {
-    padding: .2rem 1rem;
-  }
-  
-  .nav-link.active,.nav-link:focus{
-    color: #fff;
-  }
-  
-  .navbar-toggler {
-    padding: 1px 5px;
-    font-size: 18px;
-    line-height: 0.3;
-  }
-  
-  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #91C788;
-  }
-
-  .navbararkaplan
-  {
-    background-color: #b4c992cb;
-    font-style: initial;
-    font-family: cursive;
-  }
-/* navbar - end */
-
-
-.sayfa_fontu
-{
-  font-family: cursive;
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.form_text_color
-{
-  color: #295544;
+.carousel-caption {
+  bottom: 270px;
 }
 
-.form_yorum
-{
-  background-color: #f0f0cd;
-  border-radius: 40px;
-  color: #4a5349;
-
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
 }
 
-.icon_opacity
-{
-  transition: 0.2s;
+.carousel-caption p {
+  width: 75%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
 }
 
-
-.icon_opacity:hover
-{
-  opacity: 50%;
-  transition: .2s;
-}
-
-.footerrr
-{
-  text-decoration: none;
-  font-family: cursive;
-  color:#52734D;
-  transition: 0.2s;
-
-}
-
-.footerrr:hover
-{
-  color:#96c78e;
-  transition: 0.2s;
-}
-
-.submitbutton
-{
+.navbar-light .navbar-brand {
+  color: #000000;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
   transition: .5s;
 }
 
-.submitbutton:hover
-{
+.navbar-light .navbar-brand:hover {
+  color: #ffffff;
+  transition: 0.5s;
+
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: #52734D;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #202b1e;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  padding: .2rem 1rem;
+}
+
+.nav-link.active,
+.nav-link:focus {
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  transition: .3s;
+  color: #ffffff;
+}
+
+.navbararkaplan {
+  background-color: #F0DD92;
+  font-style: initial;
+  font-family: Poppins;
+}
+
+/* navbar - end */
+
+
+.footerrr {
+  text-decoration: none;
+  color: #595e58;
+  transition: 0.2s;
+
+}
+
+.footerrr:hover {
+  color: #96c78e;
+  font-family: Poppins;
+
+  transition: 0.2s;
+}
+
+.submitbutton {
+  transition: .5s;
+}
+
+.submitbutton:hover {
   background-color: #a3a39f;
   color: #fff;
   transition: .2s;

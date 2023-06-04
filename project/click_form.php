@@ -21,6 +21,13 @@
         transition: .2s;
         color: #ffffff;
       }
+
+      .form_yorum
+      {
+        background-color: #f3eccc;
+        border-radius: 30px;
+
+      }
     </style>
 </head>
 
@@ -161,7 +168,7 @@
                 </div>
                 
                 <div class='row'>
-                    <div class='col-md-4 justify-content-start'>                <h4>Mehmet Alp Arslan</h4>
+                    <div class='col-md-4 justify-content-start '>                <h4>Mehmet Alp Arslan</h4>
                     </div>
                     <div style='margin-left:10%;' class='col-md-2 justify-content-end'>
                     <a href='#' class='icon_opacity'><img  src='up_icon.png'></a>
@@ -210,16 +217,90 @@
                     <div class="form-outline mb-4">
                       <textarea placeholder="Çözüm Öneriniz" name="mesaj" class="form-control" id="form4Example3" rows="2"></textarea>
                       <label class="form-label text-light" for="form4Example3">Mesajınız</label>
-                    </div>
-                  
+                    </div>                  
                     <div class="form-check d-flex justify-content-center mb-4">
-                        <input type="submit" name = "btnUser" id = "btnNewuser" value = "Gönder" class = "btn btn-outline-success yorum_buton">
+                        <input type="submit" name = "btnUser" id = "btnNewuser" value = "Gönder" class = "btn btn-outline-warning border-warning rounded-pill btn-md w-25 justify-content-center d-flex yon">
                     </div>
                   </form>
             </div>
         </div>
       </div>
   </footer>
+
+      <!-- footer --- start -->
+      <div class="navbararkaplan ">
+      
+      <footer class="container py-5 mt-5">
+
+        <div class="row">
+
+          <div class="col-6 col-md">
+
+            <h4>İçerik</h4>
+
+            <ul class="list-unstyled text-small">
+
+              <li><a class="footerrr " href="anasayfa.html">Anasayfa</a></li>
+
+              <li><a class="footerrr" href="hakkımızda.html">Hakkımızda</a></li>
+
+              <li><a class="footerrr" href="hakkımızda.html">Türkiye</a></li>
+
+              <li><a class="footerrr" href="iletisim.html">İletişim</a></li>
+
+              <li><a class="footerrr" href="iletisim.html">Kullanıcı Giriş</a></li>
+
+              <li><a class="footerrr" href="iletisim.html">Kullanıcı Oluşturma</a></li>
+
+            </ul>
+
+          </div>
+
+          <div class="col-6 col-md">
+            <h4>Şehirler</h4>
+            <ul class="list-unstyled text-small">
+              <li><a class="footerrr" href="#">İstanbul</a></li>
+
+              <li><a class="footerrr" href="#">Ankara</a></li>
+
+              <li><a class="footerrr" href="#">İzmir</a></li>
+
+              <li><a class="footerrr" href="#">Antalya</a></li>
+
+              <li><a class="footerrr" href="#">Sivas</a></li>
+
+              <li><a class="footerrr" href="#">Hatay</a></li>
+
+            </ul>
+          </div>
+
+          <div class="col-6 col-md">
+
+              <h4>Şehirler</h4>
+
+              <ul class="list-unstyled text-small">
+
+                <li><a class="footerrr" href="#">Malatya</a></li>
+
+                <li><a class="footerrr" href="#">Muğla</a></li>
+
+                <li><a class="footerrr" href="#">Trabzon</a></li>
+                
+                <li><a class="footerrr" href="#">Bursa</a></li>  
+
+                <li><a class="footerrr" href="#">Diyarbakır</a></li>
+
+                <li><a class="footerrr" href="#">Samsun</a></li>
+
+              </ul>
+            </div>
+  
+        </div>
+      </footer>
+      
+  </div>
+  <!-- footer --- end -->
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

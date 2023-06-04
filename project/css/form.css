@@ -16,5 +16,68 @@
 .yorum_buton:hover
 {
     transition: .2s;
-    font-size: medium;
+    background-color: wheat;
 }
+
+.form_yorum
+{
+    background-color:#f3eccc;
+    border-radius: 30px;
+}
+
+
+
+.icon_opacity:hover
+{
+    opacity: 50%;
+    transition: .2s;
+}
+
+.inceleform
+{
+    background-color:#f3eccc ;
+    border-radius: 40px;
+}
+
+.problem
+{
+    font-size: 30px;
+}
+
+
+.populer_form
+{
+    position: fixed;
+    width:350px;
+    top:12%;
+    left:73%;
+    border-radius: 30px;
+    z-index: 1;
+    background-color:#f3eccc ;
+}
+
+.populer
+{
+    color: hsl(0, 0%, 0%);
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.icerik_pop
+{
+    width: 90%;
+    margin: auto;
+    transition: .2s;
+    border-radius: 20px;
+    z-index: 1;
+    box-shadow: 3px 5px #888888;
+    background-color: #e0dbc1 ;
+}
+
+.icerik_pop:hover
+{
+    box-shadow: 1px 3px #888888;
+
+    width: 88%;
+}
+

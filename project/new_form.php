@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/color_theme.css">
+    <link rel="stylesheet"  type="text/css" href="css/color_theme.css">
+    <link rel="stylesheet"  type="text/css" href="css/form.css">
+
     <title>Akıllı Tarım</title>
     <style>
       .yon
@@ -24,6 +26,7 @@
 
 <body>
 
+    <!-- navbar - start -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top navbararkaplan ">
         <div class="container ">
           <a class="navbar-brand " href="anasayfa.html">Akıllı Tarım</a>
@@ -50,7 +53,7 @@
                   <a class="dropdown-item" href="#">Action</a>
                   <a class="dropdown-item" href="#">Another action</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="anasayfa.html">Something else here</a>
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -60,7 +63,7 @@
                 <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="form.html">Formlar</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Yeni Form Ekle</a>
+                  <a class="dropdown-item" href="/newform/index.html">Yeni Form Ekle</a>
                 </div>
               </li>
               <li class="nav-item">
@@ -73,11 +76,12 @@
           </div>
         </div>
     </nav>
+    <!-- navbar - end -->
 
     <div class="container mt-5">
       <?php
         include("connect.php");
-        $datacek = $connection->prepare("SELECT * FROM form order by views desc");
+        $datacek = $connection->prepare("SELECT * FROM form order by id desc");
         $datacek->execute();
 
         while ($row = $datacek->fetch(PDO::FETCH_ASSOC))
@@ -92,16 +96,16 @@
           echo
           "
           <div class='row'>
-            <div class='col-lg-12 bg-opacity-50 bg-success bg-gradient rounded m-auto mt-5 h-10'>
+            <div class='col-lg-12 inceleform rounded m-auto mt-5 p-4 h-10'>
               <div class='text-dark formdivi'>
                 <h3>$problem_title</h3>
                 <p class='m-0 p-0 text-black-50'>$ad</p>
               </div>
-              <div class='formdivi text-dark-emphasis'>
-                <h4>$problem</h4>
+              <div class='formdivi text-dark-emphasis fs-4'>
+                <p>$problem</p>
               </div>
-              <div class='d-flex justify-content-start'>
-              <a class='btn btn-outline-success btn-md w-100 yon' href='click_form.php?id=".$id."' ><b>İncele</b></a>
+              <div class='d-flex justify-content-center m-3'>
+              <a class='btn btn-outline-warning border-warning rounded-pill btn-md w-25 justify-content-center d-flex yon' href='click_form.php?id=".$id."' ><b>İncele</b></a>
               </div>
               <div class='d-flex justify-content-end'> 
                 <p>$time</p>
