@@ -6,116 +6,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <script type="text/javascript" src="javascript/app.js"></script>
     <link rel="stylesheet" href="css/color_theme.css">
     <link rel="stylesheet" href="css/anasayfa.css">
     <title>Insider</title>
 </head>
 
-<body>
+<body style="background-color: #a9c7a8;">
 
+    <!-- navbar - start -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top navbararkaplan ">
         <div class="container ">
-          <a class="navbar-brand " href="anasayfa.html">Akıllı Tarım</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <div>
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class=" nav-link" href="anasayfa.html">Anasayfa</a>
-              </li>
-              <li class="nav-item">
-                <a class=" nav-link" href="#">Hakkımızda</a>
-              </li>
-              <li class="nav-item">
-                <a class=" nav-link" href="Turkiye.html">Türkiye</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Şehirler
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class=" nav-link" href="#">Form</a>
-              </li>
-              <li class="nav-item">
-                <a class=" nav-link" href="#">İletişim  </a>
-              </li>
-              <li class="nav-item">
-                <a class=" nav-link" href="log-in.html">Kullanıcı Giriş/Oluşturma</a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbar-brand " href="anasayfa.html"><i class="fa-solid fa-feather mr-4"
+                    style="color: #000000;"></i>z-tarım</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class=" nav-link" href="anasayfa.html">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="#">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="Turkiye.html">Türkiye</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Şehirler
+                        </a>
+                        <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="anasayfa.html">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Form
+                        </a>
+                        <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="form.html">Formlar</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="new_form.php">Yeni Form Ekle</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="#">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="log-in.html">Kullanıcı Giriş/Oluşturma</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
+    <!-- navbar - end -->
 
     <!-- ilk container -->
-    <div id="carouselExampleCaptions" style="height: 800px;" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/carousel.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>"Türkiyenin gerçek sahibi ve efendisi, gerçek üretici olan köylüdür."</h5>
-              <p>Mustafa Kemal Atatürk</p>
+    <div class="container-fluid first-container text-center mt-5">
+        <div class="row mt-5 p-5 align-items-center">
+            <div class="col-6 my-3">
+                <h1 class="my-3" style="font-size: 106px; font-weight: 400;">Z-Tarım</h1>
+                <p class="ml-5 text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nobis enim
+                    quia
+                    laborum ullam sed Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, harum.s</p>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    <!-- <header>
-        <div class="text-lefft bg-secondary text-light baslik">
-            <div>
-                <h1 class="font-weight-bolder  display-3">Lorem ipsum dolor sit amet</h1>
-                <p class="font-weight-bold">Milletimiz çok büyük elemler, mağlûbiyetler, facialar görmüştür. Bütün
-                    olanlardan sonra yine bu topraklarda bulunuyorsa bunun temel sebebi şundandır: “Çünkü Türk çiftçisi
-                    bir eliyle kılıcını kullanırken, diğer elindeki sapanla topraktan ayrılmadı. Eğer milletimizin büyük
-                    ekseriyeti çiftçi olmasaydı biz bugün dünya yüzünde bulunmayacaktır.” .</p>
+            <div class="col-6 my-3">
+                <img src="images/giphy.gif" alt="..." class="w-75" style="border-radius: 100px;">
             </div>
         </div>
-    </header> -->
+    </div>
 
 
     <!-- card & image - Text -->
-    <div class="container-fluid align-items-center bg-warning ">
+    <div class="container-fluid align-items-center orta-bolge">
         <div class="d-flex justify-content-center images">
             <div class="y-eksen mx-1">
                 <img src="images/bugdayaBakanCiftci.png" alt="" class="radius y-eksen">
@@ -123,15 +97,16 @@
             </div>
             <div class="y-eksen mx-1 ">
                 <h4 style="margin-top: 50%;">Lorem ipsum dolor sit amet.</h4>
-                <img src="images/farmer.png" alt="" class="radius y-eksen">
+                <img src="images/kurubugdayresmi.png" alt="" class="radius y-eksen">
             </div>
         </div>
     </div>
 
-    <div class="container-fluid bg-dark text-center ">
+    <!-- TR bölge oranları  -->
+    <div class="container-fluid bg text-center ">
         <div class="container p-5 ">
             <header>
-                <h1 class="text-white">2023 Türkiye'de...</h1>
+                <h1 class="text-white display-2 py-2">2023 Türkiye'de...</h1>
             </header>
             <!-- cards -->
             <div class="row">
@@ -143,7 +118,7 @@
                                 <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
                                     haşhaş ve de pamuk
                                     .</h6>
-                                <p>_________________________</p>
+                                <hr>
                                 <div class="progress">
                                     <div class="progress-bar" style="width:87%; background:#edbb18;">
                                         <div class="progress-value">87%</div>
@@ -157,14 +132,14 @@
                     <div class="card-deck mb-3 text-left">
                         <div class="card mb-4 shadow-sm">
                             <div class="card-body">
-                                <h5 class="card-title">Akdeniz</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
-                                    haşhaş ve de pamuk
+                                <h5 class="card-title">Karadeniz</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">kivi, ceviz, Trabzon hurması, fındık, çay,
+                                    kiraz, mandarin ve kestane
                                     .</h6>
-                                <p>_________________________</p>
+                                <hr>
                                 <div class="progress">
-                                    <div class="progress-bar" style="width:87%; background:#edbb18;">
-                                        <div class="progress-value">87%</div>
+                                    <div class="progress-bar" style="width:92%; background:#edbb18;">
+                                        <div class="progress-value">92%</div>
                                     </div>
                                 </div>
                             </div>
@@ -175,14 +150,13 @@
                     <div class="card-deck mb-3 text-left">
                         <div class="card mb-4 shadow-sm">
                             <div class="card-body">
-                                <h5 class="card-title">Akdeniz</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
-                                    haşhaş ve de pamuk
-                                    .</h6>
-                                <p>_________________________</p>
+                                <h5 class="card-title">Ege</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">incir, kestane, zeytin
+                                    , Kavun ve karpuz</h6>
+                                <hr>
                                 <div class="progress">
-                                    <div class="progress-bar" style="width:87%; background:#edbb18;">
-                                        <div class="progress-value">87%</div>
+                                    <div class="progress-bar" style="width:64%; background:#edbb18;">
+                                        <div class="progress-value">64%</div>
                                     </div>
                                 </div>
                             </div>
@@ -193,14 +167,14 @@
                     <div class="card-deck mb-3 text-left">
                         <div class="card mb-4 shadow-sm">
                             <div class="card-body">
-                                <h5 class="card-title">Akdeniz</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
-                                    haşhaş ve de pamuk
+                                <h5 class="card-title">Marmara</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">buğday, mısır, çeltik, şeker pancarı,
+                                    ayçiçeği, susam ve patatestir
                                     .</h6>
-                                <p>_________________________</p>
+                                <hr>
                                 <div class="progress">
-                                    <div class="progress-bar" style="width:87%; background:#edbb18;">
-                                        <div class="progress-value">87%</div>
+                                    <div class="progress-bar" style="width:98%; background:#edbb18;">
+                                        <div class="progress-value">98%</div>
                                     </div>
                                 </div>
                             </div>
@@ -211,14 +185,15 @@
                     <div class="card-deck mb-3 text-left">
                         <div class="card mb-4 shadow-sm">
                             <div class="card-body">
-                                <h5 class="card-title">Akdeniz</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
-                                    haşhaş ve de pamuk
+                                <h5 class="card-title">İç Anadolu</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">baklagiller, büyük ölçekte şekerpancarı,
+                                    ayçiçeği, fasulye,
+                                    nohut, soğan, patates, kabak, mısır, çeltik, fındık, sarımsak, havuç ve domates.
                                     .</h6>
-                                <p>_________________________</p>
+                                <hr>
                                 <div class="progress">
-                                    <div class="progress-bar" style="width:87%; background:#edbb18;">
-                                        <div class="progress-value">87%</div>
+                                    <div class="progress-bar" style="width:72%; background:#edbb18;">
+                                        <div class="progress-value">72%</div>
                                     </div>
                                 </div>
                             </div>
@@ -229,11 +204,11 @@
                     <div class="card-deck mb-3 text-left">
                         <div class="card mb-4 shadow-sm">
                             <div class="card-body">
-                                <h5 class="card-title">Akdeniz</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
-                                    haşhaş ve de pamuk
+                                <h5 class="card-title">Doğu Anadolu</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Baklagiller başta olmak üzere; şeker pancarı,
+                                    pamuk, lahana, patates, kayısı ve az miktarda da tütün
                                     .</h6>
-                                <p>_________________________</p>
+                                <hr>
                                 <div class="progress">
                                     <div class="progress-bar" style="width:87%; background:#edbb18;">
                                         <div class="progress-value">87%</div>
@@ -247,11 +222,11 @@
                     <div class="card-deck mb-3 text-left">
                         <div class="card mb-4 shadow-sm">
                             <div class="card-body">
-                                <h5 class="card-title">Akdeniz</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">turunçgiller, tütün, muz, buğday, pirinç, gül,
-                                    haşhaş ve de pamuk
+                                <h5 class="card-title">Güneydoğu Anadolu</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">antepfıstığı, badem, buğday, pamuk, keten,
+                                    susam, nohut, zeytin, incir, karpuz ve kırmızı mercimek
                                     .</h6>
-                                <p>_________________________</p>
+                                <hr>
                                 <div class="progress">
                                     <div class="progress-bar" style="width:87%; background:#edbb18;">
                                         <div class="progress-value">87%</div>
@@ -262,7 +237,156 @@
                     </div>
                 </div>
             </div>
-            
+        </div>
+    </div>
+
+
+
+    <!-- çiftçi yazı -->
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-6"><img src="https://i2.milimaj.com/i/milliyet/75/869x477/62739ff586b244145c2c4140.jpg"
+                    alt="..." class="w-100 border border-dark resim-farmer"></div>
+            <div class="col-6">
+                <h1 class="display-4">Çiftçilerimize...</h1>
+                <p>
+                    Türk çiftçiler, vatanın kalbinde çalışan kahramanlardır. Sabahın ilk ışıklarıyla tarlalarda ter
+                    dökerken, toprağa olan sevgileriyle beslenmemize ve sofralarımızı doyurmamıza katkı sağlarlar.
+                    Onların emekleri, tarladan soframıza uzanan bereket yolunda köprü görevi görürken, yüreklerimize de
+                    minnet ve şükran duyguları eklerler.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Markaların Sergilenmesi -->
+    <div class="brand-list px-5 ">
+        <ul class="brand-items">
+            <li class="brand-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Carrefour_logo.svg/1200px-Carrefour_logo.svg.png"
+                    alt="Marka 1">
+            </li>
+            <li class="brand-item">
+                <img src="https://cdn.shopify.com/s/files/1/0554/3444/4975/collections/bonanza-brands_Danone.png?v=1627489604"
+                    alt="Marka 2">
+            </li>
+            <li class="brand-item">
+                <img src="https://upload.wikimedia.org/wikipedia/tr/d/d3/1024px-Unilever.svg.png" alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://files.sikayetvar.com/lg/cmp/44/44647.svg?1522660736" alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/DuPont.svg/1200px-DuPont.svg.png"
+                    alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PepsiCo_logo.svg/2500px-PepsiCo_logo.svg.png"
+                    alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Mondelez_international_2012_logo.svg/702px-Mondelez_international_2012_logo.svg.png"
+                    alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Dr._Oetker-Logo.svg" alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://cdn.cookielaw.org/logos/65f8d287-9e8f-4fe3-a71b-bc419af64374/0ec8436a-4830-4bff-a349-a3cfb4bee88b/438395e6-409e-4b4b-a3bc-6f9581ae4708/barilla.png"
+                    alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://pazarlamaturkiye.com/wp-content/uploads/2017/12/coca-cola-basarinin-sirri-ne.png"
+                    alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Nestl%C3%A9.svg/220px-Nestl%C3%A9.svg.png"
+                    alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/CargillLogo.svg/1200px-CargillLogo.svg.png"
+                    alt="Marka 3">
+            </li>
+        </ul>
+    </div>
+
+
+
+    <!-- footer --- start -->
+    <div class="navbararkaplan ">
+        <footer class="container py-5 mt-5">
+
+            <div class="row">
+
+                <div class="col-6 col-md">
+
+                    <h4>İçerik</h4>
+
+                    <ul class="list-unstyled text-small">
+
+                        <li><a class="footerrr " href="anasayfa.html">Anasayfa</a></li>
+
+                        <li><a class="footerrr" href="hakkımızda.html">Hakkımızda</a></li>
+
+                        <li><a class="footerrr" href="hakkımızda.html">Türkiye</a></li>
+
+                        <li><a class="footerrr" href="iletisim.html">İletişim</a></li>
+
+                        <li><a class="footerrr" href="iletisim.html">Kullanıcı Giriş</a></li>
+
+                        <li><a class="footerrr" href="iletisim.html">Kullanıcı Oluşturma</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-6 col-md">
+                    <h4>Şehirler</h4>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="footerrr" href="#">İstanbul</a></li>
+
+                        <li><a class="footerrr" href="#">Ankara</a></li>
+
+                        <li><a class="footerrr" href="#">İzmir</a></li>
+
+                        <li><a class="footerrr" href="#">Antalya</a></li>
+
+                        <li><a class="footerrr" href="#">Sivas</a></li>
+
+                        <li><a class="footerrr" href="#">Hatay</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md">
+
+                    <h4>Şehirler</h4>
+
+                    <ul class="list-unstyled text-small">
+
+                        <li><a class="footerrr" href="#">Malatya</a></li>
+
+                        <li><a class="footerrr" href="#">Muğla</a></li>
+
+                        <li><a class="footerrr" href="#">Trabzon</a></li>
+
+                        <li><a class="footerrr" href="#">Bursa</a></li>
+
+                        <li><a class="footerrr" href="#">Diyarbakır</a></li>
+
+                        <li><a class="footerrr" href="#">Samsun</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+
+    </div>
+    <!-- footer --- end -->
+
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -272,6 +396,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
         crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/fba4296352.js" crossorigin="anonymous"></script>
+    <script src="javascript/app.js"></script>
 </body>
 
 </html>
