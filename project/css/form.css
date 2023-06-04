@@ -81,3 +81,23 @@
     width: 88%;
 }
 
+.form_baslik
+{
+    font-style: initial;
+    font-family: Poppins;
+    color: #52734D;
+}
+
+.formkartları
+{
+    height: 500px;
+}
+
+
+.icon_form
+{
+    position: fixed;
+    width: 150px;
+    top:12%;
+    left:90%;
+}

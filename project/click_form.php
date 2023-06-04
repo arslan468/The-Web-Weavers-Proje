@@ -100,11 +100,16 @@
             $problem = $goruntu['problem'];
             $views = $goruntu['views'];
             $time = $goruntu['time'];
+            $foto = $goruntu['ss'];
 
             $views += 1;
 
             echo
             "
+            <div class='icon_form'>
+              <div class='card-avatar'> <img class='img rounded-circle shadow-4-strong img-fluid' src='$foto'>
+              </div>
+            </div>
             <div class='container mt-5'>
                 <div class='row mt-5'>
                     <div class='col-md-12 text-center mt-5'>

@@ -8,6 +8,7 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet"  type="text/css" href="css/color_theme.css">
     <link rel="stylesheet"  type="text/css" href="css/form.css">
+    <link rel="stylesheet" href="css/card_yapısı.css">
 
     <title>Akıllı Tarım</title>
     <style>
@@ -78,9 +79,36 @@
     </nav>
     <!-- navbar - end -->
 
-    <div class="container mt-5">
+    <div class="populer_form" style="word-wrap: break-word; overflow-wrap: break-word;">
+      <h3 class="text-center populer"> 
+        Popüler Konular
+      </h3>
       <?php
         include("connect.php");
+        $pop = $connection->prepare("SELECT * FROM form order by views desc limit 6");
+        $pop->execute();
+        
+        while($den = $pop->fetch(PDO::FETCH_ASSOC))
+        {
+          $idpop = $den['id'];
+          $problem_titlepop = substr($den['problem_title'],0,30);
+          echo
+          "
+            <div class='icerik_pop'>
+            <a style = 'text-decoration: none;' href='click_form.php?id=".$idpop."'><h5 style='padding: 8px; color:black;'>$problem_titlepop</h5></a>
+            </div>
+            
+          ";
+        }
+      ?>
+    </div>
+
+    <div class="container mt-5">
+      <div class='row mt-5'>
+        <div class="col-md-9">
+        <h2 class="form_baslik">En Son Eklenen Konular</h2>
+        </div>
+      <?php
         $datacek = $connection->prepare("SELECT * FROM form order by id desc");
         $datacek->execute();
 
@@ -89,32 +117,34 @@
           $id = $row['id'];
           $ad = $row['name'];
           $problem_title = $row['problem_title'];
-          $problem = $row['problem'];
+          $problem = substr($row['problem'],0,195);
           $views = $row['views'];
           $time = $row['time'];
+          $img = $row['ss'];
 
           echo
           "
-          <div class='row'>
-            <div class='col-lg-12 inceleform rounded m-auto mt-5 p-4 h-10'>
-              <div class='text-dark formdivi'>
-                <h3>$problem_title</h3>
-                <p class='m-0 p-0 text-black-50'>$ad</p>
+            <div class='col-md-4 m-0'>
+            <div class='card card-testimonial mt-5  mb-2'  style='background-color: #f3eccc ;'>
+                <div class='icon'> <i class='fa fa-quote-right'></i> </div>
+                  <div class='table m-0 p-4'>
+                    <h3 class='text-success m-0 p-0'><b>$problem_title</b></h3>
+                    <h5 class='populer'>$problem
+                    </h5> </div>
+                    <div class='ftr'>
+                    <h4 class='card-caption'>$ad</h4>
+                    <h6 class='category'>Görüntülenme: $views</h6>
+                    <h6 class='category'>Tarih: $time</h6>
+                    <div class='card-avatar'>
+                        <a href='click_form.php?id=".$id."'> <img class='img icon_opacity' src='$img' alt = 'http://adamthemes.com/demo/code/cards/images/avatar3.png'> </a>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class='formdivi text-dark-emphasis fs-4'>
-                <p>$problem</p>
-              </div>
-              <div class='d-flex justify-content-center m-3'>
-              <a class='btn btn-outline-warning border-warning rounded-pill btn-md w-25 justify-content-center d-flex yon' href='click_form.php?id=".$id."' ><b>İncele</b></a>
-              </div>
-              <div class='d-flex justify-content-end'> 
-                <p>$time</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>Görüntülenme: $views</p>
-              </div>
-            </div>
-          </div>
+              <div class='col-md-1 m-0'></div>
+
+
+
 
 
           ";
@@ -123,6 +153,8 @@
       ?>
 
     </div>
+    </div>
+    
 
 
     <!-- footer --- start -->
@@ -212,3 +244,26 @@
         crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+<!-- <div class='row'>
+            <div class='col-lg-12 inceleform rounded m-auto mt-5 p-4 h-10'>
+              <div class='text-dark formdivi'>
+                <h3>$problem_title</h3>
+                <p class='m-0 p-0 text-black-50'>$ad</p>
+              </div>
+              <div class='formdivi text-dark-emphasis fs-4'>
+                <p>$problem</p>
+              </div>
+              <div class='d-flex justify-content-center m-3'>
+              <a class='btn btn-outline-warning border-warning rounded-pill btn-md w-25 justify-content-center d-flex yon' href='click_form.php?id=".$id."' ><b>İncele</b></a>
+              </div>
+              <div class='d-flex justify-content-end'> 
+                <p>$time</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>Görüntülenme: $views</p>
+              </div>
+            </div>
+          </div> -->
