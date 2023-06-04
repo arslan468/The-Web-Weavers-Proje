@@ -4,3 +4,17 @@
     margin: 3px;
     padding: 2px;
 }
+
+.yorum_buton
+{
+    width: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;  
+    transition: .2s;
+}
+
+.yorum_buton:hover
+{
+    transition: .2s;
+    font-size: medium;
+}

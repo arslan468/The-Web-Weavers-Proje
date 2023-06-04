@@ -8,6 +8,18 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/color_theme.css">
     <title>Akıllı Tarım</title>
+    <style>
+      .yon
+      {
+        color: #000;
+        transition: .2s;
+      }
+      .yon:hover
+      {
+        transition: .2s;
+        color: #ffffff;
+      }
+    </style>
 </head>
 
 <body>
@@ -88,6 +100,9 @@
               <div class='formdivi text-dark-emphasis'>
                 <h4>$problem</h4>
               </div>
+              <div class='d-flex justify-content-start'>
+              <a class='btn btn-outline-success btn-md w-100 yon' href='click_form.php?id=".$id."' ><b>İncele</b></a>
+              </div>
               <div class='d-flex justify-content-end'> 
                 <p>$time</p>
                 <p>&nbsp;</p>
@@ -105,6 +120,80 @@
 
     </div>
 
+
+    <!-- footer --- start -->
+    <div class="navbararkaplan ">
+      
+      <footer class="container py-5 mt-5">
+
+        <div class="row">
+
+          <div class="col-6 col-md">
+
+            <h4>İçerik</h4>
+
+            <ul class="list-unstyled text-small">
+
+              <li><a class="footerrr " href="anasayfa.html">Anasayfa</a></li>
+
+              <li><a class="footerrr" href="hakkımızda.html">Hakkımızda</a></li>
+
+              <li><a class="footerrr" href="hakkımızda.html">Türkiye</a></li>
+
+              <li><a class="footerrr" href="iletisim.html">İletişim</a></li>
+
+              <li><a class="footerrr" href="iletisim.html">Kullanıcı Giriş</a></li>
+
+              <li><a class="footerrr" href="iletisim.html">Kullanıcı Oluşturma</a></li>
+
+            </ul>
+
+          </div>
+
+          <div class="col-6 col-md">
+            <h4>Şehirler</h4>
+            <ul class="list-unstyled text-small">
+              <li><a class="footerrr" href="#">İstanbul</a></li>
+
+              <li><a class="footerrr" href="#">Ankara</a></li>
+
+              <li><a class="footerrr" href="#">İzmir</a></li>
+
+              <li><a class="footerrr" href="#">Antalya</a></li>
+
+              <li><a class="footerrr" href="#">Sivas</a></li>
+
+              <li><a class="footerrr" href="#">Hatay</a></li>
+
+            </ul>
+          </div>
+
+          <div class="col-6 col-md">
+
+              <h4>Şehirler</h4>
+
+              <ul class="list-unstyled text-small">
+
+                <li><a class="footerrr" href="#">Malatya</a></li>
+
+                <li><a class="footerrr" href="#">Muğla</a></li>
+
+                <li><a class="footerrr" href="#">Trabzon</a></li>
+                
+                <li><a class="footerrr" href="#">Bursa</a></li>  
+
+                <li><a class="footerrr" href="#">Diyarbakır</a></li>
+
+                <li><a class="footerrr" href="#">Samsun</a></li>
+
+              </ul>
+            </div>
+  
+        </div>
+      </footer>
+      
+  </div>
+  <!-- footer --- end -->
 
 
 

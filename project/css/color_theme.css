@@ -90,6 +90,36 @@ body
 /* navbar - end */
 
 
+.sayfa_fontu
+{
+  font-family: cursive;
+}
+
+.form_text_color
+{
+  color: #295544;
+}
+
+.form_yorum
+{
+  background-color: #f0f0cd;
+  border-radius: 40px;
+  color: #4a5349;
+
+}
+
+.icon_opacity
+{
+  transition: 0.2s;
+}
+
+
+.icon_opacity:hover
+{
+  opacity: 50%;
+  transition: .2s;
+}
+
 .footerrr
 {
   text-decoration: none;
