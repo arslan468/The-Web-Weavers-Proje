@@ -23,21 +23,26 @@
 
     
                     <div class="text-center">
-                      <img src="/project/images/lotus.png"
+                      <img src="images/lotus.png"
                         style="width: 185px;" alt="logo">
                       <h4 class="mt-1 mb-5 pb-1">The Web Weavers</h4>
                     </div>
     
-                    <form name = "login" action="log-in.html" method="POST">
+                    <form name = "login" action="http://localhost/deneme/project/log_in.php" method="POST">
                       <p>Lütfen giriş yapmak için bilgilerinizi giriniz</p>
     
                       <div class="form-outline mb-4">
-                        <input type="text"  required="required" id="form2Example11" class="form-control"
+                        <input type="text"  required="required" id="form2Example11" name = "name" class="form-control"
                           placeholder="Ad/Soyad" />
+                      </div>
+
+                      <div class="form-outline mb-4">
+                        <input type="text"  required="required" id="form2Example11" name = "tc" class="form-control"
+                          placeholder="TC Kimlik Numarası" />
                       </div>
     
                       <div class="form-outline mb-4">
-                        <input type="password"  required="required" id="form2Example22" class="form-control" placeholder="Şifre" />
+                        <input type="password" name = "password"  required="required" id="form2Example22" class="form-control" placeholder="Şifre" />
                       </div>
     
                       <div class="text-center pt-1 mb-5 pb-1">
