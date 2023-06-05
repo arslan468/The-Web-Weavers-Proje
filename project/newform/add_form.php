@@ -7,8 +7,8 @@
         $subject = trim($_POST['subject']);
         $message = trim($_POST['message']);
 
-        $command = $connection->prepare("INSERT INTO form set name = ?, problem_title = ?, problem = ?");
-        $insert = $command->execute(array($name, $subject, $message));
+        $command = $connection->prepare("INSERT INTO form set name = ?, problem_title = ?, problem = ?, ss = ?");
+        $insert = $command->execute(array($name, $subject, $message, $email));
         if($insert)
         {
             ?>
