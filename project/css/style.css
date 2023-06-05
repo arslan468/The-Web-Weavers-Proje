@@ -203,15 +203,16 @@
 
 #map{
     position: relative;
-    margin-bottom: 150px;
-    margin-left: 200px;
+    text-align: center;
 }
 
 #map_png{
+    margin-top: 100px;
     position: absolute;
+    text-align: center;
     top: 0;
     left: 0;
-    width: 1000px;
+    width: 1100px;
     height: 500px;
     object-fit: cover;
 }
@@ -219,8 +220,8 @@
 #bolgeler{
     position: relative;
     display: flex;
-    margin-top: 150px;
-    margin-left: 200px;
+    text-align: center;
+    margin-bottom: 300px;
 }
 
 .bolgeler_png{
@@ -311,3 +312,29 @@
     margin-left: -400px;
 }
 
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 200px;
+    height: 350px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+    border-radius: 50px;
+}
+
+#bolgeler:hover .overlay{
+    visibility: visible;
+    opacity: 0.3;
+}
+
+#bolgeler:hover img{
+    opacity: 0.7;
+}
+
+#bolgeler img{
+    transition: opacity 0.5s;
+  }
