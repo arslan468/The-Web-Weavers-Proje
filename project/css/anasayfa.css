@@ -16,6 +16,66 @@
     border-radius: 20px;
 }
 
-/* .progress {
+.orta-bolge {
+    background-color: #FEFFDE;
+    padding: 6%;
+}
+
+.first-container {
+    background-color: #a9c7a8;
+    padding: 1%;
+}
+
+.bg {
+    background-color: #99A98F;
+}
+
+
+/* markalar */
+.brand-items {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    /* Yumuşak kaydırma efekti */
+
+}
+
+.brand-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin: 2%;
     width: 200px;
-} */
+    transition: transform 0.3s;
+    /* Transform geçiş süresi */
+}
+
+.brand-item:hover {
+    transform: scale(1.1);
+    /* Büyütme faktörü */
+}
+
+.brand-item img {
+    max-height: 110px;
+    width: 100%;
+}
+
+
+.brand-list {
+    background-color: #EEEEEE;
+    width: 100%;
+    overflow-x: hidden;
+    white-space: nowrap;
+
+}
+
+/* çiftçi yazı */
+
+.jumbotron {
+    background-color: #EEEEEE;
+}
+
+.resim-farmer {
+    border-radius: 30px;
+}
