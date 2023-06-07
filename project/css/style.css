@@ -278,6 +278,7 @@
     width: 600px;
     height: 250px;
     border-radius: 50px;
+    transition: 1s;
 }
 
 #karadeniz_header{
@@ -318,6 +319,51 @@
 .bolgeler_png:hover{
     transform: scale(1.3);
     z-index: 2;
-    opacity: 0.5;
+    opacity: 0;
 }
 
+#bolgeler_GuneyDoguAnadolu_png:hover{
+    transform: scale(1.3);
+    z-index: 2;
+    opacity: 0;
+}
+
+.aciklama{
+    position: absolute;
+    z-index: -1;
+}
+
+#karadeniz_aciklama{
+    margin-top: 620px;
+    margin-left: 150px;
+}
+
+#akdeniz_aciklama{
+    margin-top: 670px;
+    margin-left: 360px;
+}
+
+#ege_aciklama{
+    margin-top: 620px;
+    margin-left: 560px;
+}
+
+#marmara_aciklama{
+    margin-top: 1020px;
+    margin-left: 160px;
+}
+
+#icanadolu_aciklama{
+    margin-top: 1070px;
+    margin-left: 360px;
+}
+
+#doguanadolu_aciklama{
+    margin-top: 1020px;
+    margin-left: 560px;
+}
+
+#guneydoguanadolu_aciklama{
+    margin-top: 1500px;
+    margin-left: 150px;
+}
