@@ -1,0 +1,78 @@
+
+main{
+    margin-top: 62px;
+    margin-inline: 10%;
+}
+
+.cityImg{
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    text-align: center;
+    margin: 50px;
+}
+
+.line{
+    margin-top: 50px;
+}
+
+.cardImg{
+    width: 100px;
+    margin: 30px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Card{
+    background-color: white;
+    border-radius: 5%;
+    border-style: dashed;
+    border-color: #52734e;
+    margin-inline: 30px;
+    margin-bottom: 100px;
+    width: 1000px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Card > h2{
+    text-align: center;
+}
+
+.card-title{
+    color: #52734e;
+    font-size: 30px;
+    text-align: center;
+}
+
+.chart{
+    width: 100%;
+}
+
+
+.input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress{
+    height: 40px;
+}
+
+.inputBox{
+    width: 50%;
+    margin-inline: 3px;
+    margin-bottom: 10px;
+}
