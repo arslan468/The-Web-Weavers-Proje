@@ -204,14 +204,14 @@
 #map{
     position: relative;
     text-align: center;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
 }
 
 #map_png{
     margin-top: 100px;
     position: absolute;
-    text-align: center;
-    top: 0;
-    left: 0;
     width: 1100px;
     height: 500px;
     object-fit: cover;
@@ -220,7 +220,9 @@
 #bolgeler{
     position: relative;
     display: flex;
-    text-align: center;
+    margin:auto;
+    width: 50%;
+    margin: 0 auto;
     margin-bottom: 300px;
 }
 
@@ -326,15 +328,15 @@
     border-radius: 50px;
 }
 
-#bolgeler:hover .overlay{
+#bolgeler_Karadeniz_png:hover .overlay{
     visibility: visible;
     opacity: 0.3;
 }
 
-#bolgeler:hover img{
+#bolgeler:hover #bolgeler_Karadeniz_png{
     opacity: 0.7;
 }
 
-#bolgeler img{
+#bolgeler #bolgeler_karadeniz_png{
     transition: opacity 0.5s;
   }
