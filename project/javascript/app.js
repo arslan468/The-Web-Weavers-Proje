@@ -22,7 +22,7 @@ brandList.addEventListener('mousemove', function (e) {
     if (!isDown) return;
     e.preventDefault();
     var x = e.clientX;
-    var walk = (x - startX) * 0.5; // Kaydırma hızını ayarlamak için çarpan değeri
+    var walk = (x - startX) * 0.6; // Kaydırma hızını ayarlamak için çarpan değeri
     brandList.scrollLeft = scrollLeft - walk;
 });
 
