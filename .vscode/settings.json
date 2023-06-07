@@ -1,10 +1,10 @@
 {
-<<<<<<< HEAD
-    "liveServer.settings.port": 5501,
-    "githubPullRequests.ignoredPullRequestBranches": [
-        "master"
-    ]
-=======
-    "liveServer.settings.port": 5501
->>>>>>> mehmet
+    <<<<<<< HEAD
+        "liveServer.settings.port": 5501,
+        "githubPullRequests.ignoredPullRequestBranches": [
+            "master"
+        ]
+    =======
+        "liveServer.settings.port": 5501
+    >>>>>>> mehmet
 }

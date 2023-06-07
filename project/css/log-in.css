@@ -27,3 +27,9 @@
 {
     background-image:url("/project/images/edevlet.png");
 }
+
+.muz:hover
+{
+    background-color: rgb(248, 235, 48);
+    transition: .5s;
+}
