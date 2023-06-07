@@ -1,0 +1,117 @@
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+/* Styling the h2 tag by giving color,
+letter spacing, font-size etc.*/
+.progress-bar-container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0c0c0c;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+/* Styling the border and box
+effect of the progress bar*/
+.progress-bar {
+    width: 500px;
+    height: 10px;
+    margin-top: 10px;
+    border: 1px solid #565656;
+    border-radius: 5px;
+    box-shadow: 0 0 13px rgb(245, 241, 0);
+}
+
+/* Stylingthe background color of each
+animation and border radius */
+.percentage {
+    display: block;
+    height: 100%;
+    background-color: rgb(51, 255, 0);
+    border-radius: 5px;
+    animation: progress 1500ms ease-in 1;
+}
+
+/* Assigning width of each languages*/
+.c {
+    width: 70%;
+}
+
+.java {
+    width: 55%;
+}
+
+.python {
+    width: 98%;
+}
+
+.html {
+    width: 25%;
+}
+
+.css {
+    width: 80%;
+}
+
+.javascript {
+    width: 43%;
+}
+
+/* Animating the progress bar by
+initially starting from 0*/
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+
+
+
+
+@keyframes progress {
+    0% { --percentage: 0; }
+    100% { --percentage: var(--value); }
+  }
+  
+  @property --percentage {
+    syntax: '<number>';
+    inherits: true;
+    initial-value: 0;
+  }
+  
+  [role="progressbar"] {
+    --percentage: var(--value);
+    --primary: rgb(247, 99, 89);
+    --secondary: rgb(240, 255, 185);
+    --size: 300px;
+    animation: progress 2s 0.5s forwards;
+    width: var(--size);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+  }
+  
+  [role="progressbar"]::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(var(--primary) calc(var(--percentage) * 1%), var(--secondary) 0);
+    mask: radial-gradient(white 55%, transparent 0);
+    mask-mode: alpha;
+    -webkit-mask: radial-gradient(#0000 55%, #000 0);
+    -webkit-mask-mode: alpha;
+  }
+  
+  [role="progressbar"]::after {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--primary);
+  }
