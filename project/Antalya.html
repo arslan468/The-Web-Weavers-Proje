@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/project/css/form.css">
     <script type="text/javascript" src="javascript/sehir.js"></script> 
     <link rel="stylesheet" href="/project/css/card_yapısı.css">
+    <link rel="stylesheet" href="/project/css/card_yapısı.css">
     <link rel="stylesheet" href="/project/css/log-in.css">
     <link rel="stylesheet" href="/project/css/bar.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -17,6 +18,46 @@
     <title style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">Akıllı Tarım - Antalya</title>
     
 <style type="text/css" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+
+        
+    /* markalar */
+    .brand-items {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        scroll-behavior: smooth;
+        /* Yumuşak kaydırma efekti */
+
+    }
+
+    .brand-item {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+        margin: 2%;
+        width: 200px;
+        transition: transform 0.3s;
+        /* Transform geçiş süresi */
+    }
+
+    .brand-item:hover {
+        transform: scale(1.1);
+        /* Büyütme faktörü */
+    }
+
+    .brand-item img {
+        max-height: 110px;
+        width: 100%;
+    }
+
+
+    .brand-list {
+        background-color: #EEEEEE;
+        width: 100%;
+        overflow-x: hidden;
+        white-space: nowrap;
+
+    }
 
 		html,body{
 			height:100%;
@@ -559,54 +600,61 @@
         <!-- navbar - start -->
         <nav class="navbar navbar-expand-md navbar-light fixed-top navbararkaplan ">
             <div class="container ">
-              <a class="navbar-brand " href="anasayfa.html">Akıllı Tarım</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-          
-              <div>
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class=" nav-link" href="anasayfa.html">Anasayfa</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class=" nav-link" href="hakkımda.html">Hakkımızda</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class=" nav-link" href="Turkiye.html">Türkiye</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Şehirler
-                    </a>
-                    <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="Antalya.html">Antalya</a>
-                      <a class="dropdown-item" href="Antalya.html">Antalya</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="Turkiye.html">Türkiye</a>
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Form
-                    </a>
-                    <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="new_form.php">Formlar</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="/project/newform/index.html">Yeni Form Ekle</a>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class=" nav-link" href="iletisim.html">İletişim</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class=" nav-link" href="log-in.html">Kullanıcı Giriş/Oluşturma</a>
-                  </li>
-                </ul>
-              </div>
+                <a class="navbar-brand " href="anasayfa.html"><i class="fa-solid fa-feather mr-4"
+                        style="color: #000000;"></i>Akıllı Tarım</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div>
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class=" nav-link" href="anasayfa.html">Anasayfa</a>
+                      </li>   
+                        <li class="nav-item">
+                            <a class=" nav-link" href="hakkımda.html">Hakkımızda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" href="Turkiye.html">Türkiye</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Şehirler
+                            </a>
+                            <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">01 Adana</a>
+                                <a class="dropdown-item" href="#">02 Adıyaman</a>
+                                <a class="dropdown-item" href="#">03 Afyon</a>
+                                <a class="dropdown-item" href="#">04 Ağrı</a>
+                                <a class="dropdown-item" href="#">05 Amasya</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Form
+                            </a>
+                            <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="form.html">Formlar</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="new_form.php">Yeni Form Ekle</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" href="iletisim.html">İletişim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" href="log-in.html">Kullanıcı Giriş/Oluşturma</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </nav>
-        <!-- navbar - end -->
+            </nav>
+            <!-- navbar - end -->
+
+
     <div class="wrapper" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;height: auto;min-height: 100vh;display: flex;flex-direction: column;box-sizing: border-box !important;">
         <div mc:template_section="Header" class="templateSection templateHeader" data-template-container style="background:#ffffff none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;position: relative;display: flex;flex-shrink: 0;justify-content: center;padding-right: 0px;padding-left: 0px;background-color: #ffffff;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 54px;padding-bottom: 54px;box-sizing: border-box !important;">
             <div class="headerContainer contentContainer" style="background:transparent none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;max-width: 960px;width: 100%;flex: 0 0 auto;background-color: transparent;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0;padding-bottom: 0;box-shadow: none;box-sizing: border-box !important;"><div class="mcnImageBlock mcnImageBlockInner" style="padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
@@ -725,8 +773,9 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
         </div>
 
         <!--  Antalya Yetişen Tarım Ürünleri - start  -->
-        
-        <div class="bg-warning-subtle">
+
+
+        <!-- <div class="bg-warning-subtle">
             <div class="container ">
                 <div class="row">
                     <div class="col-md-12">
@@ -734,15 +783,11 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
                             <h1 style="font-style: initial; font-family: Poppins;">
                                 Antalya Yetişen Tarım Ürünleri
                             </h1>
-            
                         </div>
-                        
                         <div class="d-flex">
-
                             <div class="col-md-3">
                                 <div class="card " style="width: 15rem; background-color: #FFFCEF;">
                                     <div class="card-body m-auto">
-                                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                                         <h1>Buğday</h1>
                                     </div>
                                     <img src="images/wheat.png" class="card-img-top mb-1 img-col">
@@ -752,7 +797,6 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
                             <div class="col-md-3">
                                 <div class="card " style="width: 15rem; background-color: #FFFCEF;">
                                     <div class="card-body m-auto">
-                                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                                         <h1>Muz</h1>
                                     </div>
                                     <img src="images/muz.png" class="card-img-top mb-1 img-col">
@@ -762,7 +806,6 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
                             <div class="col-md-3">
                                 <div class="card " style="width: 15rem; background-color: #FFFCEF;">
                                     <div class="card-body m-auto">
-                                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                                         <h1>Zeytin</h1>
                                     </div>
                                     <img src="images/olive.png" class="card-img-top mb-1 img-col ">
@@ -772,7 +815,6 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
                             <div class="col-md-3">
                                 <div class="card " style="width: 15rem; background-color: #FFFCEF;">
                                     <div class="card-body m-auto">
-                                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                                         <h1>Portakal</h1>
                                     </div>
                                     <img src="images/orange.png" class="card-img-top mb-1 img-col ">
@@ -786,7 +828,6 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
                             <div class="col-md-3">
                                 <div class="card " style="width: 15rem; background-color: #FFFCEF;">
                                     <div class="card-body m-auto">
-                                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                                         <h2>Mandalna</h2>
                                     </div>
                                     <img src="images/mandarin.png" class="card-img-top mb-1 img-col">
@@ -796,7 +837,6 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
                             <div class="col-md-3">
                                 <div class="card " style="width: 15rem; background-color: #FFFCEF;">
                                     <div class="card-body m-auto">
-                                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                                         <h1>Limon</h1>
                                     </div>
                                     <img src="images/lemon.png" class="card-img-top mb-1 img-col">
@@ -806,7 +846,6 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
                             <div class="col-md-3">
                                 <div class="card " style="width: 15rem; background-color: #FFFCEF;">
                                     <div class="card-body m-auto">
-                                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                                         <h1>Greyfurt</h1>
                                     </div>
                                     <img src="images/grapefruit.png" class="card-img-top mb-1 img-col">
@@ -817,7 +856,6 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
                             <div class="col-md-3">
                                 <div class="card " style="width: 15rem; background-color: #FFFCEF;">
                                     <div class="card-body m-auto">
-                                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                                         <h1>Patates</h1>
                                     </div>
                                     <img src="https://cdn-icons-png.flaticon.com/512/1652/1652127.png" class="card-img-top mb-1 img-col">
@@ -837,6 +875,61 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
             </div>
         </div>
         <!--  Antalya Yetişen Tarım Ürünleri - end  -->
+
+
+
+
+    <!-- <div class="brand-list px-5 ">
+        <ul class="brand-items">
+            <li class="brand-item">
+                <img src="images/"
+                    alt="Marka 1">
+            </li>
+            <li class="brand-item">
+                <img src="images/wheat.png"
+                    alt="Marka 2">
+            </li>
+            <li class="brand-item">
+                <img src="https://upload.wikimedia.org/wikipedia/tr/d/d3/1024px-Unilever.svg.png" alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://files.sikayetvar.com/lg/cmp/44/44647.svg?1522660736" alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/DuPont.svg/1200px-DuPont.svg.png"
+                    alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PepsiCo_logo.svg/2500px-PepsiCo_logo.svg.png"
+                    alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Mondelez_international_2012_logo.svg/702px-Mondelez_international_2012_logo.svg.png"
+                    alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Dr._Oetker-Logo.svg" alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://cdn.cookielaw.org/logos/65f8d287-9e8f-4fe3-a71b-bc419af64374/0ec8436a-4830-4bff-a349-a3cfb4bee88b/438395e6-409e-4b4b-a3bc-6f9581ae4708/barilla.png"
+                    alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://pazarlamaturkiye.com/wp-content/uploads/2017/12/coca-cola-basarinin-sirri-ne.png"
+                    alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Nestl%C3%A9.svg/220px-Nestl%C3%A9.svg.png"
+                    alt="Marka 3">
+            </li>
+            <li class="brand-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/CargillLogo.svg/1200px-CargillLogo.svg.png"
+                    alt="Marka 3">
+            </li>
+        </ul>
+    </div> -->
+        
+        
 
 
         <!-- Ürünlerin Üretim Miktarı - start  -->
@@ -1057,76 +1150,7 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
                         </div>
                     </div>
                     <!-- Limon üretim Miktarı - End -->   
-                    
-
-                    
-                    
-
-
-
-<!-- 
-                    <input type="number" aria-label="First name" class="form-control bg-warning-subtle border border-warning">
-                    <input type="submit" aria-label="Last name" class="form-control bg-warning-subtle  btn-outline-warning border border-warning"> -->
-
-
-                </div>
-                
-
-
-
-                
-                <!-- <div class="col-md-12 mt-5 d-flex justify-content-center">
-
-
-
-                    <div class="skills">
-                        <div class="progress-bar-container">
-                            <h2>C/C++</h2>
-                            <div class="progress-bar">
-                                <span class="percentage c"></span>
-                            </div>
-                        </div>
-                 
-                        <div class="progress-bar-container">
-                            <h2>Java</h2>
-                            <div class="progress-bar">
-                                <span class="percentage java"></span>
-                            </div>
-                        </div>
-                 
-                        <div class="progress-bar-container">
-                            <h2>Python</h2>
-                            <div class="progress-bar">
-                                <span class="percentage python"></span>
-                            </div>
-                        </div>
-                 
-                        <div class="progress-bar-container">
-                            <h2>HTML</h2>
-                            <div class="progress-bar">
-                                <span class="percentage html"></span>
-                            </div>
-                        </div>
-                 
-                        <div class="progress-bar-container">
-                            <h2>CSS</h2>
-                            <div class="progress-bar">
-                                <span class="percentage css"></span>
-                            </div>
-                        </div>
-                 
-                        <div class="progress-bar-container mb-5">
-                            <h2>JavaScript</h2>
-                            <div class="progress-bar">
-                                <span class="percentage javascript"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-        </div>
-        <!-- Ürünlerin Üretim Miktarı - end -->
+                </div><
     
 
     <!-- footer --- start -->
@@ -1211,6 +1235,9 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
         crossorigin="anonymous"></script>
+    <script src="javascript/app.js"></script>
+    <script src="https://kit.fontawesome.com/fba4296352.js" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

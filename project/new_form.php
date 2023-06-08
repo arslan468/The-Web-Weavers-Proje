@@ -29,53 +29,58 @@
 
         <!-- navbar - start -->
         <nav class="navbar navbar-expand-md navbar-light fixed-top navbararkaplan ">
-            <div class="container ">
-              <a class="navbar-brand " href="anasayfa.html">Akıllı Tarım</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container ">
+            <a class="navbar-brand " href="anasayfa.html"><i class="fa-solid fa-feather mr-4"
+                    style="color: #000000;"></i>Akıllı Tarım</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-          
-              <div>
+            </button>
+
+            <div>
                 <ul class="navbar-nav">
                   <li class="nav-item active">
                     <a class=" nav-link" href="anasayfa.html">Anasayfa</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class=" nav-link" href="hakkımda.html">Hakkımızda</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class=" nav-link" href="Turkiye.html">Türkiye</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Şehirler
-                    </a>
-                    <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="Antalya.html">Antalya</a>
-                      <a class="dropdown-item" href="Antalya.html">Antalya</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="Turkiye.html">Türkiye</a>
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Form
-                    </a>
-                    <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="new_form.php">Formlar</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="/project/newform/index.html">Yeni Form Ekle</a>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class=" nav-link" href="iletisim.html">İletişim</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class=" nav-link" href="log-in.html">Kullanıcı Giriş/Oluşturma</a>
-                  </li>
+                  </li>   
+                    <li class="nav-item">
+                        <a class=" nav-link" href="hakkımda.html">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="Turkiye.html">Türkiye</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Şehirler
+                        </a>
+                        <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">01 Adana</a>
+                            <a class="dropdown-item" href="#">02 Adıyaman</a>
+                            <a class="dropdown-item" href="#">03 Afyon</a>
+                            <a class="dropdown-item" href="#">04 Ağrı</a>
+                            <a class="dropdown-item" href="#">05 Amasya</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Form
+                        </a>
+                        <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="form.html">Formlar</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="new_form.php">Yeni Form Ekle</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="iletisim.html">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="log-in.html">Kullanıcı Giriş/Oluşturma</a>
+                    </li>
                 </ul>
-              </div>
             </div>
+        </div>
         </nav>
         <!-- navbar - end -->
 
@@ -242,6 +247,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
         crossorigin="anonymous"></script>
+        
+    <script src="https://kit.fontawesome.com/fba4296352.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
 
