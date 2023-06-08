@@ -34,11 +34,11 @@ animation and border radius */
 
 /* Assigning width of each languages*/
 .c {
-    width: 70%;
+    width: 38%;
 }
 
 .java {
-    width: 55%;
+    width: 25%;
 }
 
 .python {
@@ -46,7 +46,7 @@ animation and border radius */
 }
 
 .html {
-    width: 25%;
+    width: 60%;
 }
 
 .css {
