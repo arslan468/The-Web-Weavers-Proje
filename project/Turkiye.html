@@ -16,9 +16,11 @@
 
 <body>
 
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-md navbar-light fixed-top navbararkaplan ">
     <div class="container ">
-      <a class="navbar-brand " href="#">Akıllı Tarım</a>
+      <a class="navbar-brand " href="anasayfa.html"><i class="fa-solid fa-feather mr-4"
+          style="color: #000000;"></i>Akıllı Tarım</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,11 +28,11 @@
 
       <div>
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class=" nav-link" href="anasayfa.html">Anasayfa</a>
+          <li class="nav-item">
+            <a class=" nav-link" href="hakkımda.html">Anasayfa</a>
           </li>
           <li class="nav-item">
-            <a class=" nav-link" href="#">Hakkımızda</a>
+            <a class=" nav-link" href="hakkımda.html">Hakkımızda</a>
           </li>
           <li class="nav-item">
             <a class=" nav-link" href="Turkiye.html">Türkiye</a>
@@ -40,18 +42,27 @@
               aria-haspopup="true" aria-expanded="false">
               Şehirler
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">01 Adana</a>
+              <a class="dropdown-item" href="#">02 Adıyaman</a>
+              <a class="dropdown-item" href="#">03 Afyon</a>
+              <a class="dropdown-item" href="#">04 Ağrı</a>
+              <a class="dropdown-item" href="#">05 Amasya</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Form
+            </a>
+            <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="form.html">Formlar</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="new_form.php">Yeni Form Ekle</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class=" nav-link" href="#">Form</a>
-          </li>
-          <li class="nav-item">
-            <a class=" nav-link" href="#">İletişim </a>
+            <a class=" nav-link" href="iletisim.html">İletişim</a>
           </li>
           <li class="nav-item">
             <a class=" nav-link" href="log-in.html">Kullanıcı Giriş/Oluşturma</a>
@@ -60,29 +71,143 @@
       </div>
     </div>
   </nav>
+  <!-- Navbar end -->
 
 
-  <div id="map" style="text-align: center;">
-    <img id="map_png" src="images/Türkiye.png" alt="Türkiye_map">
+  <br><br><br><br>
+
+  <div class="container align-content-center text-center">
+    <img src="http://cografyaharita.com/haritalarim/4mturkiye_cografi_bolgeler_haritasi2.png" alt="..." class="w-75">
   </div>
 
-  <div id="bolgeler">
-    <h4 id="karadeniz_header">Karadeniz</h4>
-    <img id="bolgeler_Karadeniz_png" class="bolgeler_png" src="images/black_Sea_region.png" alt="Karadeniz_Bölgesi">
-    <h4 id="Akdeniz_header">Akdeniz</h4>
-    <img id="bolgeler_Akdeniz_png" class="bolgeler_png" src="images/licensed-image.jfif" alt="Akdeniz_Bölgesi">
-    <h4 id="Ege_header">Ege</h4>
-    <img id="bolgeler_Ege_png" class="bolgeler_png" src="images/ege_bolgesi.jpg" alt="ege_bolgesi">
-    <h4 id="Marmara_header">Marmara</h4>
-    <img id="bolgeler_Marmara_png" class="bolgeler_png" src="images/tr-marmara-region.jpg" alt="Marmara_Bölgesi">
-    <h4 id="İcAnadolu_header">İç Anadolu</h4>
-    <img id="bolgeler_İcAnadolu_png" class="bolgeler_png" src="images/ic_anadolu_bolgesi.jpg" alt="İç_Anadolu_Bölgesi">
-    <h4 id="DoguAnadolu_header">Doğu Anadolu</h4>
-    <img id="bolgeler_DoguAnadolu_png" class="bolgeler_png" src="images/dogu_anadolu_bolgesi.jpg"
-      alt="Doğu_Anadolu_Bölgesi">
-    <h4 id="GuneyDoguAnadolu_header">Güney Doğu Anadolu</h4>
-    <img id="bolgeler_GuneyDoguAnadolu_png" src="images/guneydogu_anadolu_bolgesi.jpg" alt="Güney_Doğu_Anadolu_Bölgesi">
+  <div class="container my-5 text-center">
+    <div class="row">
+      <div class="col-4">
+        <div>
+          <div>
+            <h3>Doğu Anadolu Bölgesi</h3>
+            <img
+              src="https://media.istockphoto.com/id/1382510003/tr/foto%C4%9Fraf/nature-view-from-nemrut-mountain.jpg?s=612x612&w=0&k=20&c=sZRGqU34tkoO2IdBCQltA5aW855mxVEAJom8ERLle9c="
+              alt="" class="rounded" style="width: 300px;">
+          </div>
+          <div>
+            <h3>Marmara Bölgesi</h3>
+            <img
+              src="https://media.istockphoto.com/id/1293322201/tr/foto%C4%9Fraf/ortak%C3%B6y-camii-ve-g%C3%BCn-bat%C4%B1m%C4%B1nda-bo%C4%9Faz-k%C3%B6pr%C3%BCs%C3%BC-istanbul-t%C3%BCrkiye.jpg?s=612x612&w=0&k=20&c=-4WE_FRSiQ7F1yP0mRLBF-fcpEx8wf6Q5vLZVLvrMto="
+              alt="" class="rounded" style="width: 300px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <h3>Ege Bölgesi</h3>
+        <img
+          src="https://img.pixers.pics/pho_wat(s3:700/FO/51/48/23/51/700_FO51482351_482a35e8558748a5457a22b12c6e033e.jpg,463,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,243,650,jpg)/duvar-resimleri-yesil-kiyisinda-dikey-manzara.jpg.jpg"
+          alt="" class="w-75 rounded" style="height: 400px;">
+      </div>
+      <div class="col-sm-4">
+        <h3>Karadeniz Bölgesi</h3>
+        <img src="https://i.pinimg.com/originals/35/20/44/352044ac1653e23bece0657797a85e58.jpg" alt=""
+          class="w-75 rounded" style="height: 410px;">
+      </div>
+      <div class="col-4">
+        <div>
+          <h3>Akdeniz Bölgesi</h3>
+          <img
+            src="https://media.istockphoto.com/id/1190270371/tr/foto%C4%9Fraf/t%C3%BCrkiyede-g%C3%BCne%C5%9Fli-bir-g%C3%BCnde-akdeniz-deniz-manzaras%C4%B1-deniz-ve-a%C4%9Fa%C3%A7lar-ile-yaz-g%C3%BCn%C3%BC-manzara.jpg?s=612x612&w=0&k=20&c=vGTxU8RXkz1h3Nej7lw6cQJAb2SlUs6PHMaQL9Er1io="
+            alt="" class="w-75 rounded" style="height: 400px;">
+        </div>
+      </div>
+      <div class="col-4">
+        <div>
+          <h3>İç Anadolu Bölgesi</h3>
+          <img
+            src="https://media.istockphoto.com/id/1339815361/tr/foto%C4%9Fraf/air-balloons-flying.jpg?s=612x612&w=0&k=20&c=BImJ7N2YNT-P7FO9JX8xt_dMJ5r8ZYXEDmqQEtGHhao="
+            alt="" class="w-75 rounded" style="width: 620px; ">
+        </div>
+      </div>
+      <div class="col-4">
+        <div>
+          <h3>Güneydoğu Anadolu Bölgesi</h3>
+          <img
+            src="https://static8.depositphotos.com/1517089/978/i/950/depositphotos_9788530-stock-photo-new-york-city-skyline.jpg"
+            alt="" class="w-75 rounded">
+        </div>
+      </div>
+    </div>
+
   </div>
+  <!-- footer --- start -->
+  <div class="navbararkaplan ">
+    <footer class="container py-5 mt-5">
+
+      <div class="row">
+
+        <div class="col-6 col-md">
+
+          <h4>İçerik</h4>
+
+          <ul class="list-unstyled text-small">
+
+            <li><a class="footerrr " href="anasayfa.html">Anasayfa</a></li>
+
+            <li><a class="footerrr" href="hakkımızda.html">Hakkımızda</a></li>
+
+            <li><a class="footerrr" href="hakkımızda.html">Türkiye</a></li>
+
+            <li><a class="footerrr" href="iletisim.html">İletişim</a></li>
+
+            <li><a class="footerrr" href="iletisim.html">Kullanıcı Giriş</a></li>
+
+            <li><a class="footerrr" href="iletisim.html">Kullanıcı Oluşturma</a></li>
+
+          </ul>
+
+        </div>
+
+        <div class="col-6 col-md">
+          <h4>Şehirler</h4>
+          <ul class="list-unstyled text-small">
+            <li><a class="footerrr" href="#">İstanbul</a></li>
+
+            <li><a class="footerrr" href="#">Ankara</a></li>
+
+            <li><a class="footerrr" href="#">İzmir</a></li>
+
+            <li><a class="footerrr" href="#">Antalya</a></li>
+
+            <li><a class="footerrr" href="#">Sivas</a></li>
+
+            <li><a class="footerrr" href="#">Hatay</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col-6 col-md">
+
+          <h4>Şehirler</h4>
+
+          <ul class="list-unstyled text-small">
+
+            <li><a class="footerrr" href="#">Malatya</a></li>
+
+            <li><a class="footerrr" href="#">Muğla</a></li>
+
+            <li><a class="footerrr" href="#">Trabzon</a></li>
+
+            <li><a class="footerrr" href="#">Bursa</a></li>
+
+            <li><a class="footerrr" href="#">Diyarbakır</a></li>
+
+            <li><a class="footerrr" href="#">Samsun</a></li>
+
+          </ul>
+        </div>
+
+      </div>
+    </footer>
+  </div>
+  <!-- footer --- end -->
+
 
   <!-- BOOTSTRAP -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -94,6 +219,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
     integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
     crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/fba4296352.js" crossorigin="anonymous"></script>
 
 
 </body>
