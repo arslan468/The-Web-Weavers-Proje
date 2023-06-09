@@ -9,8 +9,8 @@
     <link rel="stylesheet"  type="text/css" href="css/color_theme.css">
     <link rel="stylesheet"  type="text/css" href="css/form.css">
     <link rel="stylesheet" href="css/card_yapısı.css">
-
-    <title>Akıllı Tarım</title>
+    <link rel="icon" href="images/icon1.png" type="icon/image-x">
+    <title>Web Weavers</title>
     <style>
       .yon
       {
