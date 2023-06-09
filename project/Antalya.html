@@ -13,646 +13,71 @@
     <link rel="stylesheet" href="/project/css/card_yapısı.css">
     <link rel="stylesheet" href="/project/css/log-in.css">
     <link rel="stylesheet" href="/project/css/bar.css">
+    <link rel="stylesheet" href="/project/css/antalya.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,200" />
+    <link href="https://fonts.googleapis.com/css?family=Noticia+Text:400,400i,700,700i" rel="stylesheet">
     <title style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">Akıllı Tarım - Antalya</title>
-    
-<style type="text/css" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+</head>
 
-        
-    /* markalar */
-    .brand-items {
-        display: inline-block;
-        padding: 0;
-        margin: 0;
-        scroll-behavior: smooth;
-        /* Yumuşak kaydırma efekti */
-
-    }
-
-    .brand-item {
-        display: inline-block;
-        vertical-align: middle;
-        margin-right: 10px;
-        margin: 2%;
-        width: 200px;
-        transition: transform 0.3s;
-        /* Transform geçiş süresi */
-    }
-
-    .brand-item:hover {
-        transform: scale(1.1);
-        /* Büyütme faktörü */
-    }
-
-    .brand-item img {
-        max-height: 180px;
-        width: 100%;
-    }
-
-
-    .brand-list {
-        background-color: #FFFCEF;
-        width: 100%;
-        overflow-x: hidden;
-        white-space: nowrap;
-
-    }
-
-		html,body{
-			height:100%;
-		}
-		p{
-			margin:10px 0;
-			padding:0;
-		}
-		h1,h2,h3,h4,h5,h6{
-			display:block;
-			margin:0;
-			padding:0;
-		}
-		img,a img{
-			border:0;
-			height:auto;
-			outline:none;
-			text-decoration:none;
-		}
-		body{
-			margin:0 !important;
-			padding:0 !important;
-			width:100%;
-		}
-		.mcnTextBlock:after,.mcnTextBlockInner:after{
-			display:table;
-			clear:both;
-		}
-		*{
-			-webkit-box-sizing:border-box;
-			-moz-box-sizing:border-box;
-			box-sizing:border-box !important;
-		}
-		html,body,.wrapper{
-			height:auto;
-			min-height:100vh;
-		}
-		body{
-			position:relative;
-		}
-		.wrapper{
-			display:flex;
-			flex-direction:column;
-		}
-		.templateSection{
-			position:relative;
-			display:flex;
-			flex-shrink:0;
-			justify-content:center;
-		}
-		.templateSection:last-of-type{
-			flex-grow:2;
-			min-height:1px;
-		}
-		.sectionFlexColumn{
-			align-items:center;
-			display:flex;
-			flex-direction:column;
-			width:100%;
-		}
-		a.mcnButton{
-			display:block;
-		}
-		.mcnImage{
-			vertical-align:bottom;
-		}
-		.mcnTextContent{
-			word-break:break-word;
-			flex-flow:column;
-		}
-		.mcnTextContent img{
-			max-width:100%;
-			height:auto !important;
-		}
-		.mcnDividerBlock{
-			table-layout:fixed !important;
-		}
-		.mcPrivacyBadge{
-			opacity:0.6;
-		}
-		.mcPrivacyBadge:hover{
-			opacity:1;
-		}
-		.mcPrivacyBadge a.privacyLink{
-			text-decoration:none;
-		}
-		.mcPrivacyBadge a.privacyLink:hover{
-			text-decoration:underline;
-		}
-		.mcnTemplatePageBanner{
-			position:fixed;
-			padding:18px;
-			bottom:0;
-			top:unset;
-			left:0;
-			right:0;
-			box-sizing:border-box;
-			z-index:1;
-		}
-		.mcnPageBannerContainer{
-			position:relative;
-			display:flex;
-			justify-content:center;
-			padding:18px;
-			box-shadow:0px 2px 3px rgba(36, 28, 21, 0.1);
-			border:1px solid #dedddc;
-		}
-		.mcnPageBannerContentContainer{
-			padding:0 24px 0 0;
-		}
-		.mcnCloseButton{
-			opacity:.4;
-			background:url(data:image/png;
-			base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAABGdBTUEAALGPC/xhBQAAAEVQTFRFAAAA////////////////////////////////////////////////////////AAAACwsLlpaWv7+/wMDAwcHB5+fn////js+8jgAAAA90Uk5TABkaT2lvcJi1ttny8/v+KMQKuwAAAJdJREFUKM91UuEawiAIRGdp6pZzi/d/1HDo11bd/RAFTk6QSGFdiDnH4CydYfzMHbM3H/+U+IQ0Df994QuWW8//8kvk4JjEP0itjtf962K86FQ9a6nN1LKqNktOE8uzbMybGOU4eii3imvfZal6DhR7vZastAOR8lAi6UIap4wD8KqAikO58IGwJbiJsO14UHi0+DP8+z5v3a8i3EEOD1IAAAAASUVORK5CYII=); position:absolute;
-			top:18px;
-			right:18px;
-			height:24px;
-			width:24px;
-		}
-		.mcnCloseButton:hover{
-			opacity:.9;
-		}
-		.sr-only{
-			position:absolute;
-			width:1px;
-			height:1px;
-			padding:0;
-			margin:-1px;
-			overflow:hidden;
-			clip:rect(0,0,0,0);
-			border:0;
-		}
-		.mcnPaymentTextContent{
-			min-width:284px;
-		}
-		body{
-			background-color:transparent;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:top;
-			background-size:contain;
-		}
-		.templateSection{
-			padding-right:0px;
-			padding-left:0px;
-		}
-		.contentContainer{
-			max-width:960px;
-			width:100%;
-			flex:0 0 auto;
-		}
-		h1{
-			color:#000000;
-			font-family:'Noticia Text', Georgia, 'Times New Roman', serif;
-			font-size:48px;
-			font-style:normal;
-			font-weight:normal;
-			line-height:125%;
-			letter-spacing:normal;
-			text-align:center;
-		}
-		h2{
-			color:#000000;
-			font-family:'Noticia Text', Georgia, 'Times New Roman', serif;
-			font-size:40px;
-			font-style:normal;
-			font-weight:normal;
-			line-height:150%;
-			letter-spacing:normal;
-			text-align:center;
-		}
-		h3{
-			color:#000000;
-			font-family:'Noticia Text', Georgia, 'Times New Roman', serif;
-			font-size:26px;
-			font-style:normal;
-			font-weight:normal;
-			line-height:150%;
-			letter-spacing:normal;
-			text-align:center;
-		}
-		h4{
-			color:#000000;
-			font-family:'Noticia Text', Georgia, 'Times New Roman', serif;
-			font-size:20px;
-			font-style:normal;
-			font-weight:normal;
-			line-height:175%;
-			letter-spacing:normal;
-			text-align:center;
-		}
-		.templateHeader{
-			background-color:#ffffff;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:54px;
-			padding-bottom:54px;
-		}
-		.headerContainer{
-			background-color:transparent;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:0;
-			padding-bottom:0;
-			box-shadow:none;
-		}
-		.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
-			color:#696969;
-			font-family:Helvetica;
-			font-size:20px;
-			line-height:150%;
-			text-align:center;
-		}
-		.headerContainer .mcnTextContent a,.headerContainer .mcnTextContent p a{
-			color:#696969;
-			font-weight:normal;
-			text-decoration:underline;
-		}
-		.templateBody{
-			background-color:#fffcef;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:54px;
-			padding-bottom:54px;
-		}
-		.bodyContainer{
-			background-color:transparent;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:0;
-			padding-bottom:0;
-			box-shadow:none;
-		}
-		.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p,.mcnTemplatePageBanner{
-			color:#696969;
-			font-family:Helvetica;
-			font-size:20px;
-			line-height:150%;
-			text-align:center;
-		}
-		.bodyContainer .mcnTextContent a,.bodyContainer .mcnTextContent p a,.mcnTemplatePageBanner a,.mcnTemplatePageBanner p a{
-			color:#696969;
-			font-weight:normal;
-			text-decoration:underline;
-		}
-		.templateFooter{
-			background-color:#f68235;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:0;
-			padding-bottom:0;
-		}
-		.footerContainer{
-			background-color:transparent;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:0;
-			padding-bottom:0;
-		}
-		.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
-			color:#FFFFFF;
-			font-family:Helvetica;
-			font-size:16px;
-			line-height:150%;
-			text-align:center;
-		}
-		.footerContainer .mcnTextContent a,.footerContainer .mcnTextContent p a{
-			color:#FFFFFF;
-			font-weight:normal;
-			text-decoration:underline;
-		}
-	@media only screen and (max-width: 480px){
-		body,table,td,p,a,li,blockquote{
-			-webkit-text-size-adjust:none !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		body{
-			width:100% !important;
-			min-width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcPrivacyBadge{
-			padding:12px 12px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcPrivacyBadgeContent{
-			flex-direction:column;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.monkeyrewards{
-			order:1;
-			margin-bottom:18px;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.reportAbuseWrapper{
-			order:2;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnCaptionBlockInner{
-			flex:0 0 auto;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnCaptionBlock{
-			flex-direction:column;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnVideoContainer{
-			width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnRetinaImage{
-			max-width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnTextBlockInner{
-			padding:9px 0 !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageGroupContent{
-			padding:9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnCaptionColumn{
-			flex-direction:column !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnSignUpFormContentContainer{
-			flex:auto !important;
-			padding-right:0 !important;
-			padding-left:0 !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnCaptionLeftContentInner,.mcnCaptionRightContentInner{
-			padding:0 9px 9px 9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageCardRightContentInner .mcnImageCardImageContent,.mcnImageCardLeftContentInner .mcnImageCardImageContent{
-			padding:18px 18px 0 18px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnTextBlockInner,.mcnBoxedTextBlockInner,.mcnImageCardLeftContentInner,.mcnImageCardRightContentInner,.mcnCaptionLeftContentInner,.mcnCaptionRightContentInner{
-			flex-direction:column !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnCaptionLeftContentInner .mcnTextContent,.mcnCaptionRightContentInner .mcnTextContent{
-			padding:9px 9px 0 9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageCardTopImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
-			padding-top:18px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageCardBottomImageContent{
-			padding-bottom:9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageGroupBlockInner{
-			padding-top:0 !important;
-			padding-bottom:0 !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageGroupBlockOuter{
-			padding-top:9px !important;
-			padding-bottom:9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnTextContent,.mcnBoxedTextContentColumn{
-			padding-right:18px !important;
-			padding-left:18px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
-			padding-right:18px !important;
-			padding-bottom:0 !important;
-			padding-left:18px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcpreview-image-uploader{
-			display:none !important;
-			width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnRecContentContainer--row{
-			flex:0 0 50% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnRecContentContainer .mcnProductTitle,.mcnRecContentContainer .mcnButtonBlock,.mcnRecContentContainer .mcnProductPrice{
-			padding-left:0 !important;
-			padding-right:0 !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnPaymentProduct{
-			flex-direction:column !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnPaymentTextContent{
-			min-width:200px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnPaymentGalleryImages div{
-			width:100% !important;
-			min-width:0 !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnGalleryImage:nth-last-child(2):first-child,.mcnGalleryImage:nth-last-child(2):first-child ~ .mcnGalleryImage{
-			height:90px !important;
-			min-width:55px !important;
-			max-width:90px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnGalleryImage:nth-last-child(3):first-child,.mcnGalleryImage:nth-last-child(3):first-child ~ .mcnGalleryImage{
-			height:60px !important;
-			min-width:55px !important;
-			max-width:60px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnGalleryImage:nth-last-child(4):first-child,.mcnGalleryImage:nth-last-child(4):first-child ~ .mcnGalleryImage{
-			height:60px !important;
-			min-width:35px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnGalleryImage:nth-last-child(5):first-child,.mcnGalleryImage:nth-last-child(5):first-child ~ .mcnGalleryImage{
-			height:50px !important;
-			min-width:35px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcPrivacyBadge{
-			opacity:1;
-		}
-
-}	@media only screen and (max-width: 480px){
-		h1{
-			font-size:30px !important;
-			line-height:125% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		h2{
-			font-size:26px !important;
-			line-height:125% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		h3{
-			font-size:20px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		h4{
-			font-size:18px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
-			font-size:14px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
-			font-size:16px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p,.mcnTemplatePageBanner{
-			font-size:16px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
-			font-size:16px !important;
-			line-height:150% !important;
-		}
-
-}</style><!--[if !mso]><!--><link href="https://fonts.googleapis.com/css?family=Noticia+Text:400,400i,700,700i" rel="stylesheet"><!--<![endif]--><meta property="og:title" content="Antalya"><meta name="twitter:title" content="Antalya"><meta property="og:type" content="website"><meta name="twitter:type" content="website"><meta property="og:image" content="https://mcusercontent.com/8910edbb95b75fa2676c12b48/images/30ec2e3c-2f89-6d58-e7be-8977d8216f6e.jpg"><meta name="twitter:image" content="https://mcusercontent.com/8910edbb95b75fa2676c12b48/images/30ec2e3c-2f89-6d58-e7be-8977d8216f6e.jpg"><meta property="og:url" content="https://mailchi.mp/a1b80c8efca6/antalya"><meta name="twitter:url" content="https://mailchi.mp/a1b80c8efca6/antalya"><link rel="icon" href="https://s3.amazonaws.com/cdn-images.mailchimp.com/websites/favicons/default/favicon.ico" type="image/x-icon"><link rel="apple-touch-icon" href="https://s3.amazonaws.com/cdn-images.mailchimp.com/websites/favicons/default/apple-touch-icon.png" sizes="180x180"><link rel="icon" href="https://s3.amazonaws.com/cdn-images.mailchimp.com/websites/favicons/default/android-chrome-192x192.png" type="image/png" sizes="192x192"><link rel="icon" href="https://s3.amazonaws.com/cdn-images.mailchimp.com/websites/favicons/default/android-chrome-512x512.png" type="image/png" sizes="512x512"></head>
 <body style="background:transparent none no-repeat top/contain;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;height: auto;width: 100%;position: relative;background-color: transparent;background-image: none;background-repeat: no-repeat;background-position: top;background-size: contain;min-height: 100vh;box-sizing: border-box !important;margin: 0 !important;padding: 0 !important;">
 
-        <!-- navbar - start -->
-        <nav class="navbar navbar-expand-md navbar-light fixed-top navbararkaplan ">
-            <div class="container ">
-                <a class="navbar-brand " href="anasayfa.html"><i class="fa-solid fa-feather mr-4"
-                        style="color: #000000;"></i>Akıllı Tarım</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-    
-                <div>
-                    <ul class="navbar-nav">
-                      <li class="nav-item active">
-                        <a class=" nav-link" href="anasayfa.html">Anasayfa</a>
-                      </li>   
-                        <li class="nav-item">
-                            <a class=" nav-link" href="hakkımda.html">Hakkımızda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class=" nav-link" href="Turkiye.html">Türkiye</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Şehirler
-                            </a>
-                            <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">01 Adana</a>
-                                <a class="dropdown-item" href="#">02 Adıyaman</a>
-                                <a class="dropdown-item" href="#">03 Afyon</a>
-                                <a class="dropdown-item" href="#">04 Ağrı</a>
-                                <a class="dropdown-item" href="#">05 Amasya</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Form
-                            </a>
-                            <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="form.html">Formlar</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="new_form.php">Yeni Form Ekle</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class=" nav-link" href="iletisim.html">İletişim</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class=" nav-link" href="log-in.html">Kullanıcı Giriş/Oluşturma</a>
-                        </li>
-                    </ul>
-                </div>
+    <!-- navbar - start -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top navbararkaplan ">
+        <div class="container ">
+            <a class="navbar-brand " href="anasayfa.html"><i class="fa-solid fa-feather mr-4"
+                    style="color: #000000;"></i>Akıllı Tarım</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                    <a class=" nav-link" href="anasayfa.html">Anasayfa</a>
+                    </li>   
+                    <li class="nav-item">
+                        <a class=" nav-link" href="hakkımda.html">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="Turkiye.html">Türkiye</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Şehirler
+                        </a>
+                        <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">01 Adana</a>
+                            <a class="dropdown-item" href="#">02 Adıyaman</a>
+                            <a class="dropdown-item" href="#">03 Afyon</a>
+                            <a class="dropdown-item" href="#">04 Ağrı</a>
+                            <a class="dropdown-item" href="#">05 Amasya</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Form
+                        </a>
+                        <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="form.html">Formlar</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="new_form.php">Yeni Form Ekle</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="iletisim.html">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="log-in.html">Kullanıcı Giriş/Oluşturma</a>
+                    </li>
+                </ul>
             </div>
-            </nav>
-            <!-- navbar - end -->
+        </div>
+    </nav>
+    <!-- navbar - end -->
 
 
     <div class="wrapper" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;height: auto;min-height: 100vh;display: flex;flex-direction: column;box-sizing: border-box !important;">
@@ -772,162 +197,6 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
 </div></div>
         </div>
 
-        <!--  Antalya Yetişen Tarım Ürünleri - start  -->
-
-
-        <!-- <div class="bg-warning-subtle">
-            <div class="container ">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="text-center p-3">
-                            <h1 style="font-style: initial; font-family: Poppins;">
-                                Antalya Yetişen Tarım Ürünleri
-                            </h1>
-                        </div>
-                        <div class="d-flex">
-                            <div class="col-md-3">
-                                <div class="card " style="width: 15rem; background-color: #FFFCEF;">
-                                    <div class="card-body m-auto">
-                                        <h1>Buğday</h1>
-                                    </div>
-                                    <img src="images/wheat.png" class="card-img-top mb-1 img-col">
-                                </div>                
-                            </div>
-                            
-                            <div class="col-md-3">
-                                <div class="card " style="width: 15rem; background-color: #FFFCEF;">
-                                    <div class="card-body m-auto">
-                                        <h1>Muz</h1>
-                                    </div>
-                                    <img src="images/muz.png" class="card-img-top mb-1 img-col">
-                                </div>                
-                            </div>
-
-                            <div class="col-md-3">
-                                <div class="card " style="width: 15rem; background-color: #FFFCEF;">
-                                    <div class="card-body m-auto">
-                                        <h1>Zeytin</h1>
-                                    </div>
-                                    <img src="images/olive.png" class="card-img-top mb-1 img-col ">
-                                </div>                
-                            </div>
-
-                            <div class="col-md-3">
-                                <div class="card " style="width: 15rem; background-color: #FFFCEF;">
-                                    <div class="card-body m-auto">
-                                        <h1>Portakal</h1>
-                                    </div>
-                                    <img src="images/orange.png" class="card-img-top mb-1 img-col ">
-                                </div>                
-                            </div>
-                        </div>
-
-                        <div class="d-flex">
-                            
-
-                            <div class="col-md-3">
-                                <div class="card " style="width: 15rem; background-color: #FFFCEF;">
-                                    <div class="card-body m-auto">
-                                        <h2>Mandalna</h2>
-                                    </div>
-                                    <img src="images/mandarin.png" class="card-img-top mb-1 img-col">
-                                </div>                
-                            </div>
-                            
-                            <div class="col-md-3">
-                                <div class="card " style="width: 15rem; background-color: #FFFCEF;">
-                                    <div class="card-body m-auto">
-                                        <h1>Limon</h1>
-                                    </div>
-                                    <img src="images/lemon.png" class="card-img-top mb-1 img-col">
-                                </div>                
-                            </div>
-
-                            <div class="col-md-3">
-                                <div class="card " style="width: 15rem; background-color: #FFFCEF;">
-                                    <div class="card-body m-auto">
-                                        <h1>Greyfurt</h1>
-                                    </div>
-                                    <img src="images/grapefruit.png" class="card-img-top mb-1 img-col">
-                                </div>                
-                            </div>
-
-
-                            <div class="col-md-3">
-                                <div class="card " style="width: 15rem; background-color: #FFFCEF;">
-                                    <div class="card-body m-auto">
-                                        <h1>Patates</h1>
-                                    </div>
-                                    <img src="https://cdn-icons-png.flaticon.com/512/1652/1652127.png" class="card-img-top mb-1 img-col">
-                                </div>                
-                            </div>
-
-
-                        
-                        </div>
-
-
-
-
-                        
-
-                </div>
-            </div>
-        </div>
-
-
-
-
-     <div class="brand-list px-5 ">
-        <ul class="brand-items">
-            <li class="brand-item">
-                <img src="images/"
-                    alt="Marka 1">
-            </li>
-            <li class="brand-item">
-                <img src="images/wheat.png"
-                    alt="Marka 2">
-            </li>
-            <li class="brand-item">
-                <img src="https://upload.wikimedia.org/wikipedia/tr/d/d3/1024px-Unilever.svg.png" alt="Marka 3">
-            </li>
-            <li class="brand-item">
-                <img src="https://files.sikayetvar.com/lg/cmp/44/44647.svg?1522660736" alt="Marka 3">
-            </li>
-            <li class="brand-item">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/DuPont.svg/1200px-DuPont.svg.png"
-                    alt="Marka 3">
-            </li>
-            <li class="brand-item">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PepsiCo_logo.svg/2500px-PepsiCo_logo.svg.png"
-                    alt="Marka 3">
-            </li>
-            <li class="brand-item">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Mondelez_international_2012_logo.svg/702px-Mondelez_international_2012_logo.svg.png"
-                    alt="Marka 3">
-            </li>
-            <li class="brand-item">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Dr._Oetker-Logo.svg" alt="Marka 3">
-            </li>
-            <li class="brand-item">
-                <img src="https://cdn.cookielaw.org/logos/65f8d287-9e8f-4fe3-a71b-bc419af64374/0ec8436a-4830-4bff-a349-a3cfb4bee88b/438395e6-409e-4b4b-a3bc-6f9581ae4708/barilla.png"
-                    alt="Marka 3">
-            </li>
-            <li class="brand-item">
-                <img src="https://pazarlamaturkiye.com/wp-content/uploads/2017/12/coca-cola-basarinin-sirri-ne.png"
-                    alt="Marka 3">
-            </li>
-            <li class="brand-item">
-                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Nestl%C3%A9.svg/220px-Nestl%C3%A9.svg.png"
-                    alt="Marka 3">
-            </li>
-            <li class="brand-item">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/CargillLogo.svg/1200px-CargillLogo.svg.png"
-                    alt="Marka 3">
-            </li>
-        </ul>
-    </div> -->
-
     <div class="text-center p-3" style="background-color: #FFFCEF;">
         <h1 style="font-style: initial; font-family: Poppins;">
             Antalya Yetişen Tarım Ürünleri
@@ -979,7 +248,6 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
         <!-- Ürünlerin Üretim Miktarı - start  -->
         <div class="container-fluid " style="background-color: #F8F8E7;">
             <div class="row  d-flex justify-content-center">
-
                 <div class="col-md-6 mt-3">
                     <div class="card" style=" background-color: #FFFCEF;">
                         <h1 style="font-style:bold; font-family: Poppins;" class="m-5">
@@ -1003,9 +271,9 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
                     <!-- Muz üretim Miktarı - start -->
                     <div class="card mb-3 mt-3 bg-warning-subtle">
                         <div class="row g-0">
-                          <div class="col-md-4">
-                            <img src="images/muz.png" class="img-fluid rounded-start p-3" alt="...">
-                          </div>
+                            <div class="col-md-4 hover-bilgi">
+                                <img src="images/muz.png" class="img-fluid rounded-start p-3">
+                            </div>
                           <div class="col-md-8">
                             <div class="card-body">
                               <h5 class="card-title text-center fw-bold m-0" style="font-style:bold; font-family: Poppins; font-size: 30px;" ><b> Muz -<span id="muz-deger">25</span>%</b></h5>
@@ -1022,7 +290,7 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
                                 <p class="fw-bold text-center">Üretim Miktarı</p>
     
                                 <div class="input-group bg-warning-subtle">
-                                    <input type="number" id="txtmuz" name = "muz-text"class="form-control bg-warning-subtle border border-warning">
+                                    <input type="number" id="txtmuz" required="required" name = "muz-text"class="form-control bg-warning-subtle border border-warning">
                                     <input type="submit" id="muz-btn"  name="muz" class="form-control bg-warning-subtle  btn-outline-warning border border-warning muz">
                                 </div>
                             </div>
@@ -1265,6 +533,8 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
 
     </div>
     <!-- footer --- end -->
+
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -1276,7 +546,5 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
         crossorigin="anonymous"></script>
     <script src="javascript/app.js"></script>
     <script src="https://kit.fontawesome.com/fba4296352.js" crossorigin="anonymous"></script>
-
-
 </body>
 </html>

@@ -10,10 +10,11 @@ document.querySelector("#muz-btn").addEventListener("click", function(){
 
 
     let sonuc = (muzdeger+kdeger);
-
+    // text-decoration: line-through;
     if (sonuc > 95) {
         document.querySelector("#muz-destek").style.color = "red";
         document.querySelector("#muz-destek-d").style.color = "red";
+
     }
 
     let styles = window.getComputedStyle(muzbar);
@@ -26,11 +27,6 @@ document.querySelector("#muz-btn").addEventListener("click", function(){
     else
     {
         alert("İhtiyaç olan miktardan fazla ürün üretiyorsunuz!!!");
-    }
-
-   
-    
+    } 
 });
-
 });
-
