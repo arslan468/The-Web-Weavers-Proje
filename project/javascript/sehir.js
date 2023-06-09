@@ -22,13 +22,20 @@ document.querySelector("#muz-btn").addEventListener("click", function(){
         let styles = window.getComputedStyle(muzbar);
         let eskibardeger = Number.parseInt((parseFloat(styles.width) / muzbar.parentElement.offsetWidth) * 100);
         if (muzdeger < 100) {
-            let yenibardeger = (eskibardeger+kdeger+2).toString();
+            let yenibardeger = (eskibardeger+kdeger+1).toString();
             muzbar.style = "width:"+yenibardeger+"%";
             document.querySelector("#muz-deger").innerHTML = sonuc;
         }
+        
         else
         {
-            let isExecuted = confirm("İhtiyaç olan miktardan fazla ürün üretiyorsunuz!!! Zarar edebilirsiniz!!!");
+            let onay = confirm("İhtiyaç olan miktardan fazla ürün üretiyorsunuz!!! Zarar edebilirsiniz!!!");
+            if (onay == true)
+            {
+                let yenibardeger = (eskibardeger+kdeger+1).toString();
+                muzbar.style = "width:"+yenibardeger+"%";
+                document.querySelector("#muz-deger").innerHTML = sonuc;    
+            }
         }     
     }
     
