@@ -323,7 +323,7 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
     
                                 <div class="input-group bg-warning-subtle">
                                     <input type="number" aria-label="First name" class="form-control bg-warning-subtle border border-warning">
-                                    <input type="submit" aria-label="Last name" class="form-control bg-warning-subtle  btn-outline-warning border border-warning">
+                                    <input type="submit" onclick="moboff()" aria-label="Last name" class="form-control bg-warning-subtle  btn-outline-warning border border-warning">
                                 </div>
                             </div>
                           </div>
@@ -355,7 +355,7 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
     
                                 <div class="input-group bg-warning-subtle">
                                     <input type="number" name = "muz-text"class="form-control bg-warning-subtle border border-warning">
-                                    <input type="submit" name = "muz" class="form-control bg-warning-subtle  btn-outline-warning border border-warning muz">
+                                    <input type="submit" onclick="moboff()" name = "muz" class="form-control bg-warning-subtle  btn-outline-warning border border-warning muz">
                                 </div>
                             </div>
                           </div>
@@ -387,7 +387,7 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
     
                                 <div class="input-group bg-warning-subtle">
                                     <input type="number" name = "muz-text"class="form-control bg-warning-subtle border border-warning">
-                                    <input type="submit" name = "muz" class="form-control bg-warning-subtle  btn-outline-warning border border-warning muz">
+                                    <input type="submit" onclick="moboff()" name = "muz" class="form-control bg-warning-subtle  btn-outline-warning border border-warning muz">
                                 </div>
                             </div>
                           </div>
@@ -419,7 +419,7 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
     
                                 <div class="input-group bg-warning-subtle">
                                     <input type="number" name = "muz-text"class="form-control bg-warning-subtle border border-warning">
-                                    <input type="submit" name = "muz" class="form-control bg-warning-subtle  btn-outline-warning border border-warning muz">
+                                    <input type="submit" onclick="moboff()"  name = "muz" class="form-control bg-warning-subtle  btn-outline-warning border border-warning muz">
                                 </div>
                             </div>
                           </div>
@@ -436,7 +436,7 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
-                              <h5 class="card-title text-center fw-bold m-0" style="font-style:bold; font-family: Poppins; font-size: 30px;" ><b> Olive - 98%</b></h5>
+                              <h5 class="card-title text-center fw-bold m-0" style="font-style:bold; font-family: Poppins; font-size: 30px;" ><b> Zeytin - 98%</b></h5>
                                 <div class="progress-bar-container justify-content-center d-flex m-0">
                                     <div class="progress-bar">
                                         <span class="percentage python"></span>
@@ -451,7 +451,7 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
     
                                 <div class="input-group bg-warning-subtle">
                                     <input type="number" name = "muz-text"class="form-control bg-warning-subtle border border-warning">
-                                    <input type="submit" name = "muz" class="form-control bg-warning-subtle  btn-outline-warning border border-warning muz">                                </div>
+                                    <input type="submit"  onclick="moboff()" name = "muz" class="form-control bg-warning-subtle   btn-outline-warning border border-warning muz">                                </div>
                             </div>
                           </div>
                         </div>
@@ -557,5 +557,11 @@ Antalya bölgesinin verimli topraklarında çeşitli tarım ürünleri yetişmek
         crossorigin="anonymous"></script>
     <script src="javascript/app.js"></script>
     <script src="https://kit.fontawesome.com/fba4296352.js" crossorigin="anonymous"></script>
+    <script>
+    function moboff()
+        {
+            alert("Yalnızca Muz nesnesinin back-end i mevcutdur. Lütfen onu kullanınız.");
+        }
+    </script>
 </body>
 </html>
