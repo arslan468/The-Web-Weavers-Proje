@@ -26,7 +26,7 @@ document.querySelector("#muz-btn").addEventListener("click", function(){
     }
     else
     {
-        alert("İhtiyaç olan miktardan fazla ürün üretiyorsunuz!!!");
+        let isExecuted = confirm("İhtiyaç olan miktardan fazla ürün üretiyorsunuz!!! Zarar edebilirsiniz!!!");
     } 
 });
 });

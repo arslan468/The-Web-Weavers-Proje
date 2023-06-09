@@ -57,13 +57,13 @@
 }
 
 .brand-item img {
-    max-height: 110px;
+    max-height: 150px;
     width: 100%;
 }
 
 
 .brand-list {
-    background-color: #EEEEEE;
+    background-color: #a9c7a8;
     width: 100%;
     overflow-x: hidden;
     white-space: nowrap;

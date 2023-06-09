@@ -32,58 +32,63 @@
 </head>
 
 <body>
-
-        <!-- navbar - start -->
-        <nav class="navbar navbar-expand-md navbar-light fixed-top navbararkaplan ">
-            <div class="container ">
-              <a class="navbar-brand " href="anasayfa.html">Akıllı Tarım</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- navbar - start -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top navbararkaplan ">
+        <div class="container ">
+            <a class="navbar-brand " href="anasayfa.html"><i class="fa-solid fa-feather mr-4"
+                    style="color: #000000;"></i>Akıllı Tarım</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-          
-              <div>
+            </button>
+
+            <div>
                 <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class=" nav-link" href="anasayfa.html">Anasayfa</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class=" nav-link" href="hakkımda.html">Hakkımızda</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class=" nav-link" href="Turkiye.html">Türkiye</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Şehirler
-                    </a>
-                    <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="Antalya.html">Antalya</a>
-                      <a class="dropdown-item" href="Antalya.html">Antalya</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="Turkiye.html">Türkiye</a>
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Form
-                    </a>
-                    <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="new_form.php">Formlar</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="/project/newform/index.html">Yeni Form Ekle</a>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class=" nav-link" href="iletisim.html">İletişim</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class=" nav-link" href="log-in.html">Kullanıcı Giriş/Oluşturma</a>
-                  </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="anasayfa.html">Anasayfa</a>
+                    </li>   
+                    <li class="nav-item">
+                        <a class=" nav-link" href="hakkımda.html">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="Turkiye.html">Türkiye</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Şehirler
+                        </a>
+                        <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Antalya.html">Antalya</a>
+                            <a class="dropdown-item" href="Antalya.html">Adana</a>
+                            <a class="dropdown-item" href="Antalya.html">Adıyaman</a>
+                            <a class="dropdown-item" href="Antalya.html">Afyon</a>
+                            <a class="dropdown-item" href="Antalya.html">Ağrı</a>
+                            <a class="dropdown-item" href="Antalya.html">Amasya</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Form
+                        </a>
+                        <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="new_form.php">Formlar</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="newform/index.html">Yeni Form Ekle</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="iletisim.html">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href="log-in.html">Kullanıcı Giriş/Oluşturma</a>
+                    </li>
                 </ul>
-              </div>
             </div>
-        </nav>
-        <!-- navbar - end -->
+        </div>
+    </nav>
+    <!-- navbar - end -->
 
     <div class="container mt-5">
       <?php
@@ -147,8 +152,7 @@
                 <div class='row mt-5'>
                     <div class='mb-5 form_yorum'>
                     <div class='col-md-12'>
-                        <h4 class='m-3 p-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, itaque. Quis, asperiores iure? Nulla iure exercitationem rem molestiae, perferendis laborum quis aut quas quae delectus eaque dignissimos hic tempora earum.
-                        Fuga tempore labore similique asperiores reiciendis reprehenderit animi. Dolores eligendi expedita, quas quod, laborum ullam illum ipsa voluptate, adipisci fuga excepturi delectus minima totam accusantium. </h4>
+                        <h4 class='m-3 p-1'>Merhaba, Tarım alanlarının azalması ve kentleşmeyle birlikte tarımsal arazilerin kaybı sorunu ortaya çıkmaktadır. Tarım arazilerinin yerini sanayi, altyapı ve konut gibi alanlar almaktadır. Bu durum, tarımsal üretim potansiyelini ve gıda güvenliğini olumsuz etkilemektedir. Sürdürülebilir tarım yöntemlerinin teşvik edilmesi ve çevre dostu uygulamaların yaygınlaşması, bu sorunların çözümü için önemli adımlardır. Umarım yardımcı olabilmişimdir iyi günler...</h4>
 
                     </div>
                     
@@ -169,13 +173,12 @@
                 <div class='row mt-5'>
                 <div class='mb-5 form_yorum'>
                 <div class='col-md-12'>
-                    <h4 class='m-3 p-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, itaque. Quis, asperiores iure? Nulla iure exercitationem rem molestiae, perferendis laborum quis aut quas quae delectus eaque dignissimos hic tempora earum.
-                    Fuga tempore labore similique asperiores reiciendis reprehenderit animi. Dolores eligendi expedita, quas quod, laborum ullam illum ipsa voluptate, adipisci fuga excepturi delectus minima totam accusantium. </h4>
+                    <h4 class='m-3 p-1'>Selam, Günümüzde tarım sektörü, iklim değişikliği, su kaynaklarının azalması, toprak erozyonu ve biyolojik çeşitlilik kaybı gibi sorunlarla karşı karşıyadır. Bu sorunlar, tarımın sürdürülebilirliğini tehdit etmekte ve yenilikçi çözümler gerektirmektedir. Güncel tarım sorunları arasında iklim değişikliği etkileri, su kaynaklarının sınırlı olması ve tarım alanlarının azalması gibi faktörler bulunmaktadır. Bu sorunlar, tarımın sürdürülebilirliğini tehdit etmekte ve çözüm odaklı yaklaşımların önemini vurgulamaktadır.  Umarım yardımcı olabilmişimdir iyi günler...</h4>
 
                 </div>
                 
                 <div class='row'>
-                    <div class='col-md-4 justify-content-start '>                <h4>Mehmet Alp Arslan</h4>
+                    <div class='col-md-4 justify-content-start '>                <h4>Kerem Kenan Eren</h4>
                     </div>
                     <div style='margin-left:10%;' class='col-md-2 justify-content-end'>
                     <a href='#' class='icon_opacity'><img  src='up_icon.png'></a>
@@ -234,80 +237,90 @@
       </div>
   </footer>
 
-      <!-- footer --- start -->
-      <div class="navbararkaplan ">
-      
-      <footer class="container py-5 mt-5">
+    <!-- footer --- start -->
+    <div class="navbararkaplan ">
+        <footer class="container py-5 mt-5">
 
-        <div class="row">
+            <div class="row">
 
-          <div class="col-6 col-md">
+                <div class="col-6 col-md">
 
-            <h4>İçerik</h4>
+                    <h4>İçerik</h4>
 
-            <ul class="list-unstyled text-small">
+                    <ul class="list-unstyled text-small">
 
-              <li><a class="footerrr " href="anasayfa.html">Anasayfa</a></li>
+                        <li><a class="footerrr " href="anasayfa.html">Anasayfa</a></li>
 
-              <li><a class="footerrr" href="hakkımızda.html">Hakkımızda</a></li>
+                        <li><a class="footerrr" href="hakkımda.html">Hakkımızda</a></li>
 
-              <li><a class="footerrr" href="hakkımızda.html">Türkiye</a></li>
+                        <li><a class="footerrr" href="Turkiye.html">Türkiye</a></li>
 
-              <li><a class="footerrr" href="iletisim.html">İletişim</a></li>
+                        <li><a class="footerrr" href="iletisim.html">İletişim</a></li>
 
-              <li><a class="footerrr" href="iletisim.html">Kullanıcı Giriş</a></li>
+                        <li><a class="footerrr" href="new_form.php">Form Sayfası</a></li>
 
-              <li><a class="footerrr" href="iletisim.html">Kullanıcı Oluşturma</a></li>
+                        <li><a class="footerrr" href="newform/index.html">Yeni Form Ekle</a></li>
 
-            </ul>
+                        <li><a class="footerrr" href="log-in.html">Kullanıcı Giriş</a></li>
 
-          </div>
+                        <li><a class="footerrr" href="newuser.html">Kullanıcı Oluşturma</a></li>
 
-          <div class="col-6 col-md">
-            <h4>Şehirler</h4>
-            <ul class="list-unstyled text-small">
-              <li><a class="footerrr" href="#">İstanbul</a></li>
+                    </ul>
 
-              <li><a class="footerrr" href="#">Ankara</a></li>
+                </div>
 
-              <li><a class="footerrr" href="#">İzmir</a></li>
+                <div class="col-6 col-md">
+                    <h4>Şehirler</h4>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="footerrr" href="Antalya.html">Antalya</a></li>
 
-              <li><a class="footerrr" href="#">Antalya</a></li>
+                        <li><a class="footerrr" href="Antalya.html">İstanbul</a></li>
 
-              <li><a class="footerrr" href="#">Sivas</a></li>
+                        <li><a class="footerrr" href="Antalya.html">Ankara</a></li>
 
-              <li><a class="footerrr" href="#">Hatay</a></li>
+                        <li><a class="footerrr" href="Antalya.html">İzmir</a></li>
 
-            </ul>
-          </div>
+                        <li><a class="footerrr" href="Antalya.html">Sivas</a></li>
 
-          <div class="col-6 col-md">
+                        <li><a class="footerrr" href="Antalya.html">Hatay</a></li>
 
-              <h4>Şehirler</h4>
+                        <li><a class="footerrr" href="Antalya.html">Van</a></li>
 
-              <ul class="list-unstyled text-small">
+                        <li><a class="footerrr" href="Antalya.html">Aydın</a></li>
 
-                <li><a class="footerrr" href="#">Malatya</a></li>
+                    </ul>
+                </div>
 
-                <li><a class="footerrr" href="#">Muğla</a></li>
+                <div class="col-6 col-md">
 
-                <li><a class="footerrr" href="#">Trabzon</a></li>
-                
-                <li><a class="footerrr" href="#">Bursa</a></li>  
+                    <h4>Şehirler</h4>
 
-                <li><a class="footerrr" href="#">Diyarbakır</a></li>
+                    <ul class="list-unstyled text-small">
 
-                <li><a class="footerrr" href="#">Samsun</a></li>
+                        <li><a class="footerrr" href="Antalya.html">Malatya</a></li>
 
-              </ul>
+                        <li><a class="footerrr" href="Antalya.html">Muğla</a></li>
+
+                        <li><a class="footerrr" href="Antalya.html">Trabzon</a></li>
+
+                        <li><a class="footerrr" href="Antalya.html">Bursa</a></li>
+
+                        <li><a class="footerrr" href="Antalya.html">Diyarbakır</a></li>
+
+                        <li><a class="footerrr" href="Antalya.html">Samsun</a></li>
+
+                        <li><a class="footerrr" href="Antalya.html">Giresun</a></li>
+
+                        <li><a class="footerrr" href="Antalya.html">Kars</a></li>
+
+                    </ul>
+                </div>
+
             </div>
-  
-        </div>
-      </footer>
-      
-  </div>
-  <!-- footer --- end -->
+        </footer>
 
+    </div>
+    <!-- footer --- end -->
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -319,6 +332,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
         crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/fba4296352.js" crossorigin="anonymous"></script>
 </body>
 </html>
 

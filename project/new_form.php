@@ -27,8 +27,8 @@
 
 <body>
 
-        <!-- navbar - start -->
-        <nav class="navbar navbar-expand-md navbar-light fixed-top navbararkaplan ">
+    <!-- navbar - start -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top navbararkaplan ">
         <div class="container ">
             <a class="navbar-brand " href="anasayfa.html"><i class="fa-solid fa-feather mr-4"
                     style="color: #000000;"></i>Akıllı Tarım</a>
@@ -39,9 +39,9 @@
 
             <div>
                 <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class=" nav-link" href="anasayfa.html">Anasayfa</a>
-                  </li>   
+                    <li class="nav-item">
+                        <a class=" nav-link" href="anasayfa.html">Anasayfa</a>
+                    </li>   
                     <li class="nav-item">
                         <a class=" nav-link" href="hakkımda.html">Hakkımızda</a>
                     </li>
@@ -54,11 +54,12 @@
                             Şehirler
                         </a>
                         <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">01 Adana</a>
-                            <a class="dropdown-item" href="#">02 Adıyaman</a>
-                            <a class="dropdown-item" href="#">03 Afyon</a>
-                            <a class="dropdown-item" href="#">04 Ağrı</a>
-                            <a class="dropdown-item" href="#">05 Amasya</a>
+                            <a class="dropdown-item" href="Antalya.html">Antalya</a>
+                            <a class="dropdown-item" href="Antalya.html">Adana</a>
+                            <a class="dropdown-item" href="Antalya.html">Adıyaman</a>
+                            <a class="dropdown-item" href="Antalya.html">Afyon</a>
+                            <a class="dropdown-item" href="Antalya.html">Ağrı</a>
+                            <a class="dropdown-item" href="Antalya.html">Amasya</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -67,9 +68,9 @@
                             Form
                         </a>
                         <div class="dropdown-menu navbararkaplan" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="form.html">Formlar</a>
+                            <a class="dropdown-item" href="new_form.php">Formlar</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="new_form.php">Yeni Form Ekle</a>
+                            <a class="dropdown-item" href="newform/index.html">Yeni Form Ekle</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -81,8 +82,8 @@
                 </ul>
             </div>
         </div>
-        </nav>
-        <!-- navbar - end -->
+    </nav>
+    <!-- navbar - end -->
 
     <div class="populer_form" style="word-wrap: break-word; overflow-wrap: break-word;">
       <h3 class="text-center populer"> 
@@ -160,81 +161,90 @@
     </div>
     </div>
     
-
-
     <!-- footer --- start -->
     <div class="navbararkaplan ">
-      
-      <footer class="container py-5 mt-5">
+        <footer class="container py-5 mt-5">
 
-        <div class="row">
+            <div class="row">
 
-          <div class="col-6 col-md">
+                <div class="col-6 col-md">
 
-            <h4>İçerik</h4>
+                    <h4>İçerik</h4>
 
-            <ul class="list-unstyled text-small">
+                    <ul class="list-unstyled text-small">
 
-              <li><a class="footerrr " href="anasayfa.html">Anasayfa</a></li>
+                        <li><a class="footerrr " href="anasayfa.html">Anasayfa</a></li>
 
-              <li><a class="footerrr" href="hakkımızda.html">Hakkımızda</a></li>
+                        <li><a class="footerrr" href="hakkımda.html">Hakkımızda</a></li>
 
-              <li><a class="footerrr" href="hakkımızda.html">Türkiye</a></li>
+                        <li><a class="footerrr" href="Turkiye.html">Türkiye</a></li>
 
-              <li><a class="footerrr" href="iletisim.html">İletişim</a></li>
+                        <li><a class="footerrr" href="iletisim.html">İletişim</a></li>
 
-              <li><a class="footerrr" href="iletisim.html">Kullanıcı Giriş</a></li>
+                        <li><a class="footerrr" href="new_form.php">Form Sayfası</a></li>
 
-              <li><a class="footerrr" href="iletisim.html">Kullanıcı Oluşturma</a></li>
+                        <li><a class="footerrr" href="newform/index.html">Yeni Form Ekle</a></li>
 
-            </ul>
+                        <li><a class="footerrr" href="log-in.html">Kullanıcı Giriş</a></li>
 
-          </div>
+                        <li><a class="footerrr" href="newuser.html">Kullanıcı Oluşturma</a></li>
 
-          <div class="col-6 col-md">
-            <h4>Şehirler</h4>
-            <ul class="list-unstyled text-small">
-              <li><a class="footerrr" href="#">İstanbul</a></li>
+                    </ul>
 
-              <li><a class="footerrr" href="#">Ankara</a></li>
+                </div>
 
-              <li><a class="footerrr" href="#">İzmir</a></li>
+                <div class="col-6 col-md">
+                    <h4>Şehirler</h4>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="footerrr" href="Antalya.html">Antalya</a></li>
 
-              <li><a class="footerrr" href="#">Antalya</a></li>
+                        <li><a class="footerrr" href="Antalya.html">İstanbul</a></li>
 
-              <li><a class="footerrr" href="#">Sivas</a></li>
+                        <li><a class="footerrr" href="Antalya.html">Ankara</a></li>
 
-              <li><a class="footerrr" href="#">Hatay</a></li>
+                        <li><a class="footerrr" href="Antalya.html">İzmir</a></li>
 
-            </ul>
-          </div>
+                        <li><a class="footerrr" href="Antalya.html">Sivas</a></li>
 
-          <div class="col-6 col-md">
+                        <li><a class="footerrr" href="Antalya.html">Hatay</a></li>
 
-              <h4>Şehirler</h4>
+                        <li><a class="footerrr" href="Antalya.html">Van</a></li>
 
-              <ul class="list-unstyled text-small">
+                        <li><a class="footerrr" href="Antalya.html">Aydın</a></li>
 
-                <li><a class="footerrr" href="#">Malatya</a></li>
+                    </ul>
+                </div>
 
-                <li><a class="footerrr" href="#">Muğla</a></li>
+                <div class="col-6 col-md">
 
-                <li><a class="footerrr" href="#">Trabzon</a></li>
-                
-                <li><a class="footerrr" href="#">Bursa</a></li>  
+                    <h4>Şehirler</h4>
 
-                <li><a class="footerrr" href="#">Diyarbakır</a></li>
+                    <ul class="list-unstyled text-small">
 
-                <li><a class="footerrr" href="#">Samsun</a></li>
+                        <li><a class="footerrr" href="Antalya.html">Malatya</a></li>
 
-              </ul>
+                        <li><a class="footerrr" href="Antalya.html">Muğla</a></li>
+
+                        <li><a class="footerrr" href="Antalya.html">Trabzon</a></li>
+
+                        <li><a class="footerrr" href="Antalya.html">Bursa</a></li>
+
+                        <li><a class="footerrr" href="Antalya.html">Diyarbakır</a></li>
+
+                        <li><a class="footerrr" href="Antalya.html">Samsun</a></li>
+
+                        <li><a class="footerrr" href="Antalya.html">Giresun</a></li>
+
+                        <li><a class="footerrr" href="Antalya.html">Kars</a></li>
+
+                    </ul>
+                </div>
+
             </div>
-  
-        </div>
-      </footer>
-      
-  </div>
-  <!-- footer --- end -->
+        </footer>
+
+    </div>
+    <!-- footer --- end -->
 
 
 
