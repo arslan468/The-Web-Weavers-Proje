@@ -3,9 +3,7 @@
 
 ---
 
-<blockquote>
-<p>PROJE DE PHP İLE YAPILAN SAYFALAR VARDIR O SAYFALARIN ÇALIŞABİLMESİ İÇİN XAMPP KULLANILMASI GEREKİYOR VE LOCALHOST DA SQL TABLOLARININ YÜKLENMESİ GEREKİYOR. YÜKLEMEK İÇİN  “insider” ADLI BİR VERİTABANI OLUŞTURUP DOSYA NIN İÇİNDE Kİ SQL TABLOSUNUN İÇE AKTARILMASI GEREKİYOR!!!</p>
-</blockquote>
+
 <h1 id="akıllı-tarım">Akıllı Tarım</h1>
 <p>Sitemizin amacı tarım sektörünün daimi sorunu olan arz/talep dengesizliğini ortadan kaldırmak. Her sene vatandaşlar az üretilen ürünü fahiş fiyatlara almak zorunda kalıyor. Aynı zamanda çiftçilerin de ihtiyaç fazlası üretilen ürünleri ellerinde kalıyor zararına satmasına rağmen depolarında tonlarca meyve/sebze çöp oluyor. Her sene milyarlarca lira israf ediliyor ekim yaparken harcanan yakıt, gübre, tohum ve en önemlisi emek heba oluyor. Sitemizde bulunan form ekleme sayfası ile çiftçiler sorunlarını diğer çiftçiler ile paylaşarak ortak bir çözüm bulabilirler ve diğer çiftçilere yardımcı olabilirler.</p>
 <h1 id="problem">Problem</h1>
